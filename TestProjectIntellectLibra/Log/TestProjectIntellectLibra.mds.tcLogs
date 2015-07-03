@@ -264,6 +264,321 @@
 				<Prp name="relpath" type="S" value="03_09_2015_18_34_37_895\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6668354861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6A46F55E-D100-4A8F-AA97-EAB6681B25BE}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_00_14_583\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6857296991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A49D7539-6527-474A-BCE7-65BAA9B5EF54}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_27_27_46\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6866387269"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AC007DEB-0D9B-4C25-A539-3E7DDFB6FAEC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SetDevBilanciaiD400]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_28_45_586\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6878900116"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{37904722-C736-4B1F-89E6-D72924CC5F3A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SetDevBilanciaiD400]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_30_33_697\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6886394329"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6B2FD3CE-574A-4481-B952-58E9C1B5B7F6}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_31_38_437\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.690606794"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E9401D29-3091-481F-990A-4F2F0EAC24B5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SetDevBilanciaiD400]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_34_28_427\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6912037847"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F75F0F57-1D82-4BFC-9E13-3ED66690C516}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SendSetDevBilanciaiD400MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_35_20_7\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6915087731"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{99140994-B3AF-4646-9121-58BC9FA3777F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SendSetDevBilanciaiD400MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_35_46_357\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6933718981"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7CF92A51-E58E-4F2A-95C2-2766A5B3EEA0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SetDevEsitART]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_38_27_331\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6952278356"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AD2D583F-9FCA-42AA-8FB9-152087044C50}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SetDevEsitART]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_41_07_685\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6954507523"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{42CD7CBF-201A-41E4-A55B-BF83A978C321}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SendSetDevEsitARTMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_41_26_945\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6962986806"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{42EAF8D4-0C27-4D5D-84AA-F9860DA56B5D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEverest\SetDevEverest]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_42_40_206\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.6988843287"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4D9054A4-784E-4FDD-B5F7-4751CBF528B3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEverest\SendSetDevEverestMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_46_23_606\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7003788889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{39F31D38-2498-4509-9B90-BCA424856D45}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SetDevEsitART]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_48_32_736\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7012876852"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1A381C3F-0642-4D07-BAF4-A2C46238B915}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SendSetDevEsitARTMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_49_51_256\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7025558218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6AE16E4F-9FE5-4F18-AF66-F8BC950C411D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SendSetDevEsitARTMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_51_40_823\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7031865278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F17237A3-F8F6-4253-B14E-33E8E1B681E0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SendSetDevEsitARTMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_52_35_316\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7049004398"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{35D65FB5-420E-46BB-89B9-43CEBB921C10}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevKeli\SetDevKeli]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_55_03_395\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7055183449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7FD415E0-FA72-405C-9EA9-460E21B49515}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevKeli\SendSetDevKeliMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_55_56_785\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7063511111"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{488A60E0-E1E6-4D4D-BAF4-7A1B0D746B68}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevPWI\SetDevPWI]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_57_08_736\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.707237338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1A983761-48D7-484F-A1A4-80F14148E355}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevPWI\SendSetDevPWIMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_16_58_25_306\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7085553935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B87B08EA-FB48-48DE-B878-2297C408AC8B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevPWI\SendSetDevPWIMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_00_19_186\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7109184722"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{089544A7-CEB7-4953-A888-B4F07DE4D30C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevR420\SetDevR420]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_03_43_356\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0050">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7117856018"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{97A648A7-B846-42A2-B9AB-9E24967E6AB4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevR420\SendSetDevR420MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_04_58_276\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0051">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7125680093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7A98CFDE-AF25-4A64-B3C8-80743C5149A1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevRW15\SetDevRW15]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_06_05_876\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0052">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7161007755"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8510B9EB-FA2B-412B-BC48-EA5415E467AE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevRW15\SendSetDevRW15MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_11_11_107\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0053">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7167015856"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3A814027-CC07-4D99-8BAC-CD40E343B2FD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP12i\SetDevTVP12i]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_12_03_17\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7169008912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2DADFB2E-F2F0-4F67-A2B3-08E4697EB500}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP12i\SendSetDevTVP12iMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_12_20_237\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7181319097"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{58E5CB03-3007-467B-A641-8FA2C12B8B7D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP12i\SendSetDevTVP12iMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_14_06_597\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7193858449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C503A85D-52DD-4B32-AB2D-32E6AE4E3F54}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP25\SetDevTVP25]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_15_54_937\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7196779745"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5D6346DB-746B-43A8-9AF9-99AA40F23058}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP25\SendSetDevTVP25MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_16_20_177\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7228338889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1A8E0C8B-B832-4AB7-90DB-4B53077E0F81}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevTVP25\SendSetDevTVP25MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_20_52_848\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0059">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7245987037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{80A48035-EB23-4BAD-AC25-3CC9ED8F5944}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevXK3118\SetDevXK3118]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_23_25_327\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0060">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7251544792"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{56D92A1F-830E-4BE5-897A-B0E7E3A86690}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevXK3118\SendSetDevXK3118MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_24_13_346\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0061">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42188.7271461227"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EDDEEBC2-962B-4231-B2C7-F703442B91EE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevXK3118\SendSetDevXK3118MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_07_2015_17_27_05_424\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

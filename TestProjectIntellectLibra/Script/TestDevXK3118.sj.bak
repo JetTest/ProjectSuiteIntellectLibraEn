@@ -24,6 +24,8 @@ function SetDevXK3118()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -57,7 +59,15 @@ function SendSetDevXK3118MessageToLibraMonitor()
   
   checkColour(colour);  
   
+  Log.Message(typeOf(massMonitor));
+  Log.Message(typeOf(mass));
+  
+  massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
   
+  Log.Message(typeOf(massMonitor));
+  Log.Message(typeOf(mass));
+
+  // Compare input with output variables
   compareVariables(massMonitor ,mass);
 }

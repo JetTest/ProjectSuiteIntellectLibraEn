@@ -24,6 +24,8 @@ function SetDevEverest()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -57,8 +59,15 @@ function SendSetDevEverestMessageToLibraMonitor()
   
   checkColour(colour);
   
+  Log.Message(typeOf(massMonitor));
+  Log.Message(typeOf(mass));
+  
   //massMonitor = aqConvert.StrToInt(massMonitor);
+  massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
   
+  Log.Message(typeOf(massMonitor));
+  Log.Message(typeOf(mass));
+
   compareVariables(massMonitor, mass);
 }

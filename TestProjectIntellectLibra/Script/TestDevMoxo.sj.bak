@@ -62,6 +62,7 @@ function SendSetDevMoxoMessageToLibraMonitor()
   
   checkColour(colour);  
   
+  massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
   
   compareVariables(massMonitor, mass)

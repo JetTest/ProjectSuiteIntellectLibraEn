@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 13">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="15"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876173264"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture13.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="date" type="D" value="42188.6873760069"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="23"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.687634919"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;).WPFObject(&quot;GroupBox&quot;, &quot;Connection&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture21.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="26"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877522801"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture24.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{BA3A21E0-1099-4FDD-B3A7-339B5135E440}"/>
+			<Prp name="unit 1" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="18"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876235764"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture16.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="16"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876190625"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture14.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="20"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876271643"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture18.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="stack beginning" type="I" value="30"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877638542"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="picture" type="S" value="Picture28.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class '#32770', window caption '*' and index -1. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="date" type="D" value="42188.6873742708"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="27"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877550579"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="27"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture25.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 11">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="13"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="date" type="D" value="42188.6874971875"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickButton&quot; method or property of the &quot;Advanced...&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="29"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877610764"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickButton&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;OK&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture27.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="25"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877495023"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture23.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="9"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="date" type="D" value="42188.6872554051"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class '#32770', window caption '*' and index -1. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="date" type="D" value="42188.6874954514"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 20">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="22"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876314468"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="22"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;).WPFObject(&quot;GroupBox&quot;, &quot;Connection&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture20.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window is invisible and thus cannot be activated."/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="date" type="D" value="42188.6867683565"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;a href=&quot;aqa-help://2212&quot;&gt;Learn more about the problem and possible solutions&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:010E0000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to find the object WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;). See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877455671"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture22.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="7"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="date" type="D" value="42188.6871350347"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="21"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876290162"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;).WPFObject(&quot;GroupBox&quot;, &quot;Connection&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture19.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window is invisible and thus cannot be activated."/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="date" type="D" value="42188.6870145486"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;a href=&quot;aqa-help://2212&quot;&gt;Learn more about the problem and possible solutions&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:010E0000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class '#32770', window caption '*' and index -1. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="date" type="D" value="42188.687253669"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="17"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.687621493"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window is invisible and thus cannot be activated."/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="date" type="D" value="42188.6868890857"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;a href=&quot;aqa-help://2212&quot;&gt;Learn more about the problem and possible solutions&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:010E0000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class '#32770', window caption '*' and index -1. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="date" type="D" value="42188.6871332986"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The tree node 'Win7-100-156' is already expanded."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="date" type="D" value="42188.6868932523"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:010E0000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42188.6877638542"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="19"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876253125"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture17.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to find the object WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;). See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="date" type="D" value="42188.6876155903"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="picture" type="S" value="Picture12.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="28"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="date" type="D" value="42188.6877581829"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="28"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="picture" type="S" value="Picture26.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

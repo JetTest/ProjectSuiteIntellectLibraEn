@@ -25,6 +25,8 @@ function SetDevMoxo()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  

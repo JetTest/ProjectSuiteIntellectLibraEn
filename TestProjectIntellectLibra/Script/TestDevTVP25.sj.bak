@@ -24,6 +24,8 @@ function SetDevTVP25()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -32,8 +34,8 @@ function SendSetDevTVP25MessageToLibraMonitor()
 {
   var Port;
   var messagesPerSecond = 30;  
-  var mass = "gg";  
-  var message = "gg" + mass;
+  var mass = "590";  
+
   
   
       
@@ -45,21 +47,23 @@ function SendSetDevTVP25MessageToLibraMonitor()
   for(var cntr = 0; cntr < messagesPerSecond; cntr++)
   {  
     //Port.Write(message + "\r\n");
-    Port.Write("+0000590" + "\r\n");
-    
+    Port.Write("+0000" + mass + "\r\n");
     aqUtils.Delay(1000);   
   }  
       
   Port.Close();
    
-  var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Content();
+  var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("SimpleDriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Content();
   
-  var colour = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Foreground(); 
+  var colour = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("SimpleDriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Foreground();
+   
  
   colour = colour.ToString();
   
   checkColour(colour);
   
+  
+  //massMonitor = aqConvert.StrToInt(massMonitor);
   massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
   

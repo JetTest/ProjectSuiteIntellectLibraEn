@@ -27,6 +27,8 @@ function SetDevPWI()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -88,12 +90,42 @@ function SendSetDevPWIMessageToLibraMonitor()
 //  var massNumMonitorRow5 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 5).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
 //  var massNumMonitorRow6 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 6).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();;
   
-  compareVariables(sumTotalMonitor, sumTotal);
   
+  // Convert to integer type
+  sumTotalMonitor = aqConvert.StrToInt(sumTotalMonitor);
+  sumTotal = aqConvert.StrToInt(sumTotal);
+ 
+  compareVariables(sumTotalMonitor, sumTotal);
+    
+  massMonitorRow1 = aqConvert.StrToInt(massMonitorRow1);
+  massRow1 = aqConvert.StrToInt(massRow1);
+  
+  massMonitorRow2 = aqConvert.StrToInt(massMonitorRow2);
+  massRow2 = aqConvert.StrToInt(massRow2);
+  
+  massMonitorRow3 = aqConvert.StrToInt(massMonitorRow3);
+  massRow3 = aqConvert.StrToInt(massRow3);
+  
+  massMonitorRow4 = aqConvert.StrToInt(massMonitorRow4);
+  massRow4 = aqConvert.StrToInt(massRow4);
+  
+  massMonitorRow5 = aqConvert.StrToInt(massMonitorRow5);
+  massRow5 = aqConvert.StrToInt(massRow5);
+  
+  massMonitorRow6 = aqConvert.StrToInt(massMonitorRow6);
+  massRow6 = aqConvert.StrToInt(massRow6);
+  
+  // Compare input with output variables 
   compareVariables(massMonitorRow1, massRow1);
+  
   compareVariables(massMonitorRow2, massRow2);
+  
   compareVariables(massMonitorRow3, massRow3);
+  
   compareVariables(massMonitorRow4, massRow4);
+  
   compareVariables(massMonitorRow5, massRow5);
+  
   compareVariables(massMonitorRow6, massRow6);
+
 }

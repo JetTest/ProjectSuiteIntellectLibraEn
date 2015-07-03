@@ -24,6 +24,8 @@ function SetDevEverest()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -31,13 +33,11 @@ function SetDevEverest()
 function SendSetDevEverestMessageToLibraMonitor()
 {
   var Port;
-  var messagesPerSecond = 60;  
+  var messagesPerSecond = 30;  
   var mass = " 00890\r\n";  
 
   var message = mass;
-  
-  
-      
+        
   Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
     
   Port.Open();
@@ -58,6 +58,8 @@ function SendSetDevEverestMessageToLibraMonitor()
   colour = colour.ToString();
   
   checkColour(colour);
+  
+  Log.Message(typeOf(mass));
   
   //massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);

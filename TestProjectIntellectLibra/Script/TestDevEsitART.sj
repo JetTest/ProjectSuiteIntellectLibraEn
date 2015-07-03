@@ -23,8 +23,10 @@ function SetDevEsitART()
   grid.WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
   
   // Press OK in Libra "Advanced" options
-  pressOkayButtonLibraAdvanced();      
-    
+  pressOkayButtonLibraAdvanced();
+  
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();   
 }
 
  
@@ -35,7 +37,6 @@ function SendSetDevEsitARTMessageToLibraMonitor()
   var messagesPerSecond = 30;  
   var mass = 700;
     
-  //Port = dotNET.System_IO_Pots.SerialPort.zctor_4("COM11", 9600);
   Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
 
   Port.Close();
@@ -62,6 +63,9 @@ function SendSetDevEsitARTMessageToLibraMonitor()
   // Compare i/o netto value  
   var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("SimpleDriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "????", 1).get_Content()
     
+  //massMonitor = aqConvert.StrToInt(massMonitor);
+  massMonitor = aqConvert.StrToInt(massMonitor);
+  
   compareVariables(massMonitor, mass);
   
 }

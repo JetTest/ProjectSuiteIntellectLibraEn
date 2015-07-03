@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="showIntellectPopUPMenu"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="showIntellectPopUPMenu"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Cannot obtain the popup menu."/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="date" type="D" value="42188.6671159954"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Possible reason: There was no click that invokes the popup menu.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;AfxFrameOrView100&quot;, &quot;CORE&quot;, 1)"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="showIntellectPopUPMenu"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{18386255-F2D2-4689-836E-12A6A7924807}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The operation cannot be performed, because the desktop is invisible."/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="date" type="D" value="42188.6671074421"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;Possible cause:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The test is run on a computer that is controlled via Remote Desktop, and the Remote Desktop window was minimized on the controlling computer. As a result, the controlled computer's GUI became unavailable and GUI actions cannot be performed.&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin-top: 16px;&quot;&gt;Possible solutions:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Do not minimize the Remote Desktop window on the controlling computer during the test run.&lt;/li&gt;&lt;li&gt;Modify the Remote Desktop settings on the controlling computer so that minimizing the Remote Desktop window does not affect the GUI availability on the controlled computer.&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;aqa-help://2205&quot;&gt;See Help for more information&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;intellect&quot;).Window(&quot;AfxFrameOrView100&quot;, &quot;CORE&quot;, 1)"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Ошибка выполнения Microsoft JScript."/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="date" type="D" value="42188.6757304977"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'Sys.Process(...).Window(...).PopupMenu' -  есть null или не является объектом&#xA;Error location:&#xA;Unit: &quot;ProjectSuiteIntellect\TestProjectIntellectLibra\Script\ShowHideIntellectPopUpMenu&quot;&#xA;Line: 12 Column: 3."/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="showIntellectPopUPMenu"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="date" type="D" value="42188.6757322338"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The operation cannot be performed, because the desktop is invisible."/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="date" type="D" value="42188.6669864699"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;Possible cause:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The test is run on a computer that is controlled via Remote Desktop, and the Remote Desktop window was minimized on the controlling computer. As a result, the controlled computer's GUI became unavailable and GUI actions cannot be performed.&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin-top: 16px;&quot;&gt;Possible solutions:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Do not minimize the Remote Desktop window on the controlling computer during the test run.&lt;/li&gt;&lt;li&gt;Modify the Remote Desktop settings on the controlling computer so that minimizing the Remote Desktop window does not affect the GUI availability on the controlled computer.&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;aqa-help://2205&quot;&gt;See Help for more information&lt;/a&gt;.&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;explorer&quot;).Window(&quot;Progman&quot;, &quot;Program Manager&quot;, 1).Window(&quot;SHELLDLL_DefView&quot;, &quot;&quot;, 1).Window(&quot;SysListView32&quot;, &quot;FolderView&quot;, 1)"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42188.6757322338"/>
+			</Node>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="length" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

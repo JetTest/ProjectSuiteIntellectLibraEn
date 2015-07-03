@@ -1,6 +1,27 @@
 ﻿//USEUNIT GlobalVariables
 //USEUNIT GUIGlobalNames
 
+// More advanced function than standart "typeof" 
+function typeOf(value)
+{
+  switch(typeof(value))
+  { 
+    case "string":
+      var re = new RegExp(/\d{1,2}[\/.-]\d{1,2}[\/.-]\d{2,4}/);
+      return (value.match(re) != null) ? "date" : "string";
+      break;
+    case "object":
+      try
+        { value.join() }
+      catch(e)
+        { return "object" }
+      return "array";
+      break;
+    default:
+      return typeof(value);
+  } 
+}
+
 function compareVariables(output, input)
 {
   if(output != input)
@@ -9,7 +30,7 @@ function compareVariables(output, input)
   }
   else 
   {
-    Log.Message("Correct, output value is eqaul to input value");
+    Log.Message("Correct, output value is eqaul to input value: " + output + " == " + input);
   }
 }
 
@@ -65,9 +86,15 @@ function pressOkayButtonLibraAdvanced()
 {
   // Press OK button
   Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
-  
+
+}
+
+// Press Apply in Intellect system
+function pressApplyButtonLibraAdvanced()
+{
   // Press Apply button
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();
-}      
-  
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();       
+}
+
+
 

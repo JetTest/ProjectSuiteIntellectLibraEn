@@ -23,6 +23,8 @@ function SetDevTVP12i()
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
   
+  // Press Apply in Intellect system
+  pressApplyButtonLibraAdvanced();
 }
 
  
@@ -58,9 +60,10 @@ function SendSetDevTVP12iMessageToLibraMonitor()
   
   checkColour(colour);
   
+  // Convert to integer type
   massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
   
-  
+  // Compare input with output variables
   compareVariables(massMonitor, mass);
 }
