@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42242.5520175926"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B8209B37-C641-46E8-9E7D-A19D8480B13D}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="26_08_2015_13_14_54_320\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42242.6039283218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FA9C536C-B3C1-432C-841E-1BF5952A2929}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="26_08_2015_14_29_39_407\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42242.6053759491"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{21D0EF91-665A-43AA-A526-E45F564A1762}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="26_08_2015_14_31_44_481\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42242.6111114583"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6B4D128F-1A8D-4081-85E4-2D106622768B}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="26_08_2015_14_40_00_30\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,103 @@
+﻿//USEUNIT GlobalVariables
+//USEUNIT GlobalFunctions
+
+// Open pop-up Intellect menu, go to equipment tab, setup Dev.PWI  
+function SetDevPWI()
+{ 
+  // Local variables
+  var deviceName = "Dev.PWI";
+  
+  // Open device tab
+  selectDeviceTab();
+  
+  // Set libra device
+  // Select weighen module
+  selectWeighenModule();
+  
+  // Choose device and make sets
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 1).ClickItem(deviceName);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 2).ClickItem("COM");
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
+  
+  // Set addition options
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", "Дополнительно...").ClickButton();
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).WPFObject("_PanelHolder").WPFObject("Panel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Соединение", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+  
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").
+  WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).
+  WPFObject("StackPanel", "", 1).WPFObject("Button", "ОК", 1).ClickButton();
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();      
+  
+  // Hide pop-up Intellect menu
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1897, 23);
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
+}
+
+ 
+
+function SendSetDevPWIMessageToLibraMonitor()
+{
+  var Port;
+  var messagesPerSecond = 30;
+  
+  var massRow1 = 25;
+  var massRow2 = 35;
+  var massRow3 = 45;
+  var massRow4 = 0;
+  var massRow5 = 0;
+  var massRow6 = 0;
+  
+  var massNumRow1 = 1;
+  var massNumRow2 = 1;
+  var massNumRow3 = 1;
+  var massNumRow4 = 2;
+  var massNumRow5 = 2;
+  var massNumRow6 = 2;
+  
+  var sumTotal = 75;
+     
+  var message = massNumRow1 + " .  :  "+ massRow1 +"  kg\r\n" + massNumRow4 + 
+  " .  :   " + massRow4 + "  kg\r\n" + massNumRow2 + " .  :  " + massRow2 + 
+  "  kg\r\n" + massNumRow5 + " .  :   "+ massRow5 +"  kg\r\n "+ massNumRow3 +
+  " .  :  " + massRow3 + "  kg\r\n" + massNumRow6 + " .  :   " + massRow6 + 
+  "  kg\r\n T .  :  "+ sumTotal +"  kg\r\nStatik\r\n";
+    
+  Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
+    
+  Port.Open();
+
+  //Writing data to the port
+  for(var cntr = 0; cntr < messagesPerSecond; cntr++)
+  {    
+    Port.Write(message);
+    
+    aqUtils.Delay(1000);   
+  }  
+      
+  Port.Close();
+  
+  var sumTotalMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 2).WPFObject("Label", "", 1).get_Content();
+  
+  var massMonitorRow1 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 1).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  var massMonitorRow2 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 2).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  var massMonitorRow3 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 3).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  var massMonitorRow4 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 4).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  var massMonitorRow5 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 5).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  var massMonitorRow6 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 6).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  
+//  var massNumMonitorRow1 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 1).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
+//  var massNumMonitorRow2 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 2).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
+//  var massNumMonitorRow3 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 3).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
+//  var massNumMonitorRow4 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 4).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
+//  var massNumMonitorRow5 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 5).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();
+//  var massNumMonitorRow6 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 6).WPFObject("Grid", "", 1).WPFObject("Label", "", 1).get_Content();;
+  
+  compareVariables(sumTotalMonitor, sumTotal);
+  
+  compareVariables(massMonitorRow1, massRow1);
+  compareVariables(massMonitorRow2, massRow2);
+  compareVariables(massMonitorRow3, massRow3);
+  compareVariables(massMonitorRow4, massRow4);
+  compareVariables(massMonitorRow5, massRow5);
+  compareVariables(massMonitorRow6, massRow6);
+}

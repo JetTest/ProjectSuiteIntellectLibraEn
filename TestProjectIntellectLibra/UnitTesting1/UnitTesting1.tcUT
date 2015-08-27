@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="junit1">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="JUnit1\JUnit1.tcJUnit"/>
+				</Node>
+				<Prp name="key" type="S" value="{0FC69074-1450-4319-8297-6363F6B7AD35}"/>
+				<Prp name="pluginname" type="S" value="JUnit Runner"/>
+				<Prp name="type" type="S" value="{8AF83060-375A-4AE8-B6F7-9360C3D66137}"/>
+				<Prp name="typename" type="S" value="JUnit"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,14 @@
+﻿// Start Intellect
+function StartIntellect()
+{
+  TestedApps.intellect.Run();
+}
+
+// Stop Intellect
+function StopIntellect()
+{
+  Sys.Process("explorer").Window("Progman", "Program Manager").
+  Window("SHELLDLL_DefView").Window("SysListView32", "FolderView").Click(1917, 0);    
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
+  
+}

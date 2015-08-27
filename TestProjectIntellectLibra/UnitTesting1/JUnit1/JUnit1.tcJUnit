@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="settings"/>
+		<Node name="test data">
+			<Node name="test list"/>
+			<Prp name="classpath" type="S" value=""/>
+			<Prp name="maven project" type="S" value=""/>
+			<Prp name="run mode" type="I" value="1"/>
+			<Prp name="use mode" type="I" value="0"/>
+		</Node>
+		<Prp name="signature" type="S" value="{8AF83060-375A-4AE8-B6F7-9360C3D66137}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

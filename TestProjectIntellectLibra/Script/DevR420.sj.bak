@@ -1,0 +1,104 @@
+﻿//USEUNIT GlobalVariables
+
+// Open pop-up Intellect menu, go to equipment tab, setup Dev.R420  
+function SetDevPWI()
+{ 
+  // Local variables
+  var deviceName = "Dev.R420";
+  
+  // Open device tab
+  Sys.Process("explorer").Window("Progman", "Program Manager").
+  Window("SHELLDLL_DefView").Window("SysListView32", "FolderView").Click(1917, 0);    
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1901, 24);
+  
+  // Set libra device
+  // Select weighen module
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ClickItem("|" + PCNAME);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ClickItem("|" + PCNAME);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ExpandItem("|" + PCNAME);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ClickItem("|" + PCNAME + "|" + WEIGHINGMODULENAME);
+  
+  // Choose device and make sets
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 1).ClickItem(deviceName);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 2).ClickItem("COM");
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
+  
+  // Set addition options
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", "Дополнительно...").ClickButton();
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).WPFObject("_PanelHolder").WPFObject("Panel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Соединение", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+  
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").
+  WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).
+  WPFObject("StackPanel", "", 1).WPFObject("Button", "ОК", 1).ClickButton();
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();      
+  
+  // Hide pop-up Intellect menu
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1897, 23);
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
+}
+
+ 
+
+function SendSetDevKeliMessageToLibraMonitor()
+{
+  var Port;
+  var messagesPerSecond = 30;  
+  var mass = "А1 .  :  20  kg\r\n2 .  :   0  kg\r\n1 .  :  20  kg\r\n2 .  :   0  kg\r\n1 .  :  20  kg\r\n2 .  :   0  kg\r\n T .  :  60  kg\r\nStatik\r\n";
+
+ 
+    
+    
+  Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
+    
+  Port.Open();
+
+  //Writing data to the port
+  for(var cntr = 0; cntr < messagesPerSecond; cntr++)
+  {    
+    Port.Write(mass);
+    
+    aqUtils.Delay(1000);   
+  }  
+      
+  Port.Close();
+  
+  var massMonitorRow1 = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("ListBox", "", 1).WPFObject("ListBoxItem", "", 1).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+  
+  Log.Message(massMonitorRow1);
+  
+//  var massMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "?????", 1).get_Content();
+//  
+//  var color = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "?????", 1).get_Foreground(); 
+//    
+//  color = color.ToString();
+//  
+//  if(color == "#FFEAEB20")
+//  {
+//    color = "Yellow";
+//    Log.Error(color + " color, not correct. "+ messagesPerSecond +" messages per second was sent");
+//  }	
+//  else if(color == "#FF58C81B")
+//  {
+//    color = "Green";
+//    Log.Message(color + " color, correct"); 
+//  }
+//  else
+//  {
+//    color = "None";
+//    Log.Message(color + "is not correect color");
+//  }
+//  
+//  mass = aqConvert.StrToInt(mass);
+//  
+//  if (massMonitor != mass)
+//  {
+//    Log.Message("Error, output value not eqaul to input value");
+//  }
+//  else 
+//  {
+//    Log.Message("Correct, output value is eqaul to input value");
+//  }
+
+}
