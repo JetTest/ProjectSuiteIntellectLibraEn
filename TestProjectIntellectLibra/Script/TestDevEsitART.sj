@@ -17,12 +17,10 @@ function SetDevEsitART()
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
   
   // Set addition options
+  var grid;
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).
-  WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
-  WPFObject("_PanelHolder").WPFObject("Panel", "", 1).WPFObject("_PanelView").
-  WPFObject("GroupBox", en_connection, 1).WPFObject("Grid", "", 1).
-  WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+  grid = Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1);
+  grid.WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
   
   // Press OK in Libra "Advanced" options
   pressOkayButtonLibraAdvanced();      
