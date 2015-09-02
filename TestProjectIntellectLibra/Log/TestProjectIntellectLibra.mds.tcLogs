@@ -23,39 +23,129 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42242.5520175926"/>
+				<Prp name="datetime" type="D" value="42248.6556398958"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{B8209B37-C641-46E8-9E7D-A19D8480B13D}"/>
+				<Prp name="key" type="S" value="{200D051B-2AF4-4DAF-BD21-5D49F118A081}"/>
 				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="26_08_2015_13_14_54_320\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="relpath" type="S" value="01_09_2015_15_44_07_287\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42242.6039283218"/>
+				<Prp name="datetime" type="D" value="42248.6564180903"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FA9C536C-B3C1-432C-841E-1BF5952A2929}"/>
+				<Prp name="key" type="S" value="{606D9089-9F6D-4E4D-B627-87B2C546FD82}"/>
 				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="26_08_2015_14_29_39_407\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="01_09_2015_15_45_14_522\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42242.6053759491"/>
+				<Prp name="datetime" type="D" value="42248.6567726968"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{21D0EF91-665A-43AA-A526-E45F564A1762}"/>
-				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="26_08_2015_14_31_44_481\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="key" type="S" value="{83A76AD8-5597-4A8C-A7E2-AE81BB451193}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [buff\testResolution]"/>
+				<Prp name="relpath" type="S" value="01_09_2015_15_45_45_160\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42242.6111114583"/>
+				<Prp name="datetime" type="D" value="42248.6574264699"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{6B4D128F-1A8D-4081-85E4-2D106622768B}"/>
-				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="26_08_2015_14_40_00_30\Description.tcLog"/>
+				<Prp name="key" type="S" value="{67C90700-25AC-4A4D-BAAE-133ED827BB43}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [buff\testResolution]"/>
+				<Prp name="relpath" type="S" value="01_09_2015_15_46_41_647\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.6577393287"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7CDE8DB6-3002-494F-9AB4-9426D06275DF}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_15_47_08_677\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.6933581481"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8A9DCCB9-7AC8-43FD-9FB9-D48DB4C1DBEE}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_16_38_26_94\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7038404861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5EB8DED8-D7D1-47F0-8076-B7EB6CE99084}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_16_53_31_818\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7054768403"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{25149616-D6E2-4362-B1D7-BD3C22E43672}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_16_55_53_199\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7166828009"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CDC6EC7E-0713-48C3-8AF3-B7E89843EEE5}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_17_12_01_393\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7390114815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5AE08974-48AF-40B1-A95B-6254BC625AE4}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_17_44_10_582\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7415491435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A05A2019-43D3-4329-87EE-D535BB0DE0D1}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_17_47_49_846\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7426285995"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F02FF659-6C8E-48FC-AC8D-D842DA043ADF}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_17_49_23_111\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7495829167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5972AE65-9621-446A-BBA5-92AC288D6C04}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_17_59_23_964\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42248.7518702315"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8C9555A3-FECC-4CA0-87E2-5F69D0D2951D}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="01_09_2015_18_02_41_587\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

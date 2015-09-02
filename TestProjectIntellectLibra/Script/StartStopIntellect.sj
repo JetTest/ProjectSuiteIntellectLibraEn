@@ -1,9 +1,11 @@
-﻿// Start Intellect
+﻿//USEUNIT GUIGlobalNames
+
+// Start Intellect
 function StartIntellect()
 {
-  p1 = Sys.WaitProcess("intellect");
+  process1 = Sys.WaitProcess("intellect");
   
-  if (p1.Exists)  
+  if (process1.Exists)  
   {
       // Continue script execution
       Log.Message("The process " + TestedApps.intellect.FileName + " already exist.");
@@ -14,9 +16,9 @@ function StartIntellect()
     
     TestedApps.intellect.Run();
     
-    p2 = Sys.WaitProcess("intellect", 9000);
+    process2 = Sys.WaitProcess("intellect", 9000);
     
-    if (p2.Exists)  
+    if (process2.Exists)  
     {
       
       // Continue script execution
@@ -38,7 +40,7 @@ function StopIntellect()
   Window("SHELLDLL_DefView").Window("SysListView32", "FolderView").Click(1917, 0);    
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
   Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 3000);
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Завершить работу");
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click(en_logOff);
   
   aqUtils.Delay(5000);
   

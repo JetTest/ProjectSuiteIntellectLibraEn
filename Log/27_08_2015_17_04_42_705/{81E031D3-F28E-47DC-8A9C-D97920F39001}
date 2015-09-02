@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7123427894"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="picture" type="S" value="Picture16.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of the &quot;*&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7127048148"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="27"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="picture" type="S" value="Picture24.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7131849074"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="39"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="39"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;PopupMenu&quot; method or property of the &quot;CORE&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7123445255"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="18"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="52"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="picture" type="S" value="Picture17.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.712823125"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="28"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="51"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42243.7132572917"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="49"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="picture" type="S" value="Picture25.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7132538079"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="40"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="40"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="42"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;CORE.PopupMenu&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7123461921"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="41"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="41"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="39"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="picture" type="S" value="Picture18.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ExpandItem&quot; method or property of the &quot;*&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7128248611"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="31"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="37"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="See the previous overlapping window message for details.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;explorer&quot;).Window(&quot;Progman&quot;, &quot;Program Manager&quot;, 1).Window(&quot;SHELLDLL_DefView&quot;, &quot;&quot;, 1).Window(&quot;SysListView32&quot;, &quot;FolderView&quot;, 1)"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7119873032"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (1917, 0), which is overlapped by another window."/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="picture" type="S" value="Picture26.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7132556481"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="41"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="41"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="37"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.712463588"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="18"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{BA3A21E0-1099-4FDD-B3A7-339B5135E440}"/>
+			<Prp name="unit 1" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}"/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="picture" type="S" value="Picture19.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7129428588"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="33"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="32"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;CORE&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7121072338"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="picture" type="S" value="Picture12.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;CORE&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7124653241"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="picture" type="S" value="Picture20.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of the &quot;*&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7129445949"/>
+			<Prp name="line no" type="I" value="52"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="35"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="34"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7121053819"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 40">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="picture" type="S" value="Picture13.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7125838426"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="21"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="52"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="51"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="picture" type="S" value="Picture21.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7130632176"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="36"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="36"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="50"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="stacktext" type="S" value="selectWeighenModule"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="49"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="42"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="41"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="picture" type="S" value="Picture14.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of the &quot;*&quot; object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7125855787"/>
+			<Prp name="line no" type="I" value="49"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="22"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="selectDeviceTab"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="39"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 19">
+			<Prp name="picture" type="S" value="Picture22.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ClickItem&quot; method or property of an object that does not exist."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7130649537"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="37"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="stack beginning" type="I" value="37"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7122247106"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Browser(&quot;chrome&quot;).BrowserWindow(0)"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7119850231"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="message" type="S" value="Overlapping window"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7127031944"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="25"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="picture" type="S" value="Picture27.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7132572917"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="42"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="stack beginning" type="I" value="42"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="picture" type="S" value="Picture23.png"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Name = intellect, Index = -1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="42243.7131830556"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="38"/>
+			<Prp name="message" type="S" value="The process &quot;intellect&quot; was not found."/>
+			<Prp name="stack beginning" type="I" value="38"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="stacktext" type="S" value="SetDevBilanciaiD400"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

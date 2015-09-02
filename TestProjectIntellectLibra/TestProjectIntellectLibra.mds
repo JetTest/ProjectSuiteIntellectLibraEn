@@ -84,6 +84,21 @@
 			<Prp name="name" type="S" value=""/>
 		</Node>
 		<Node name="settings">
+			<Node name="{0787aa13-4c49-418a-a688-b23be9f226f4}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{08e45c74-68e0-4e05-913f-298de287e8ff}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="ID"/>
+				<Prp name="val0x1" type="S" value="Name"/>
+			</Node>
 			<Node name="{0bd6ae2e-e5d9-4ad0-9bf3-2483d329b22a}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
@@ -123,6 +138,323 @@
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
+			<Node name="{1fef5dc6-5f46-4cca-a31e-7c325204900b}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="2"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="2"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="1"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="1"/>
+				<Prp name="col4enabled" type="B" value="-1"/>
+				<Prp name="col4type" type="I" value="5"/>
+				<Prp name="col5enabled" type="B" value="-1"/>
+				<Prp name="col5type" type="I" value="5"/>
+				<Prp name="col6enabled" type="B" value="-1"/>
+				<Prp name="col6type" type="I" value="5"/>
+				<Prp name="col7enabled" type="B" value="-1"/>
+				<Prp name="col7type" type="I" value="5"/>
+				<Prp name="col8enabled" type="B" value="-1"/>
+				<Prp name="col8type" type="I" value="5"/>
+				<Prp name="col9enabled" type="B" value="-1"/>
+				<Prp name="col9type" type="I" value="2"/>
+				<Prp name="colcount" type="I" value="10"/>
+				<Prp name="colindex" type="I" value="4"/>
+				<Prp name="rowcount" type="I" value="29"/>
+				<Prp name="rowindex" type="I" value="28"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="I" value="-1"/>
+				<Prp name="val0x1" type="I" value="0"/>
+				<Prp name="val0x10" type="I" value="9"/>
+				<Prp name="val0x11" type="I" value="9"/>
+				<Prp name="val0x12" type="I" value="9"/>
+				<Prp name="val0x13" type="I" value="-1"/>
+				<Prp name="val0x14" type="I" value="13"/>
+				<Prp name="val0x15" type="I" value="13"/>
+				<Prp name="val0x16" type="I" value="13"/>
+				<Prp name="val0x17" type="I" value="13"/>
+				<Prp name="val0x18" type="I" value="-1"/>
+				<Prp name="val0x19" type="I" value="18"/>
+				<Prp name="val0x2" type="I" value="0"/>
+				<Prp name="val0x20" type="I" value="-1"/>
+				<Prp name="val0x21" type="I" value="20"/>
+				<Prp name="val0x22" type="I" value="20"/>
+				<Prp name="val0x23" type="I" value="20"/>
+				<Prp name="val0x24" type="I" value="20"/>
+				<Prp name="val0x25" type="I" value="-1"/>
+				<Prp name="val0x26" type="I" value="25"/>
+				<Prp name="val0x27" type="I" value="25"/>
+				<Prp name="val0x28" type="I" value="-1"/>
+				<Prp name="val0x3" type="I" value="-1"/>
+				<Prp name="val0x4" type="I" value="3"/>
+				<Prp name="val0x5" type="I" value="-1"/>
+				<Prp name="val0x6" type="I" value="5"/>
+				<Prp name="val0x7" type="I" value="-1"/>
+				<Prp name="val0x8" type="I" value="7"/>
+				<Prp name="val0x9" type="I" value="-1"/>
+				<Prp name="val1x0" type="I" value="-1"/>
+				<Prp name="val1x1" type="I" value="-1"/>
+				<Prp name="val1x10" type="I" value="-1"/>
+				<Prp name="val1x11" type="I" value="-1"/>
+				<Prp name="val1x12" type="I" value="-1"/>
+				<Prp name="val1x13" type="I" value="-1"/>
+				<Prp name="val1x14" type="I" value="-1"/>
+				<Prp name="val1x15" type="I" value="-1"/>
+				<Prp name="val1x16" type="I" value="-1"/>
+				<Prp name="val1x17" type="I" value="-1"/>
+				<Prp name="val1x18" type="I" value="-1"/>
+				<Prp name="val1x19" type="I" value="-1"/>
+				<Prp name="val1x2" type="I" value="-1"/>
+				<Prp name="val1x20" type="I" value="-1"/>
+				<Prp name="val1x21" type="I" value="-1"/>
+				<Prp name="val1x22" type="I" value="-1"/>
+				<Prp name="val1x23" type="I" value="-1"/>
+				<Prp name="val1x24" type="I" value="-1"/>
+				<Prp name="val1x25" type="I" value="-1"/>
+				<Prp name="val1x26" type="I" value="-1"/>
+				<Prp name="val1x27" type="I" value="-1"/>
+				<Prp name="val1x28" type="I" value="-1"/>
+				<Prp name="val1x3" type="I" value="-1"/>
+				<Prp name="val1x4" type="I" value="-1"/>
+				<Prp name="val1x5" type="I" value="-1"/>
+				<Prp name="val1x6" type="I" value="-1"/>
+				<Prp name="val1x7" type="I" value="-1"/>
+				<Prp name="val1x8" type="I" value="-1"/>
+				<Prp name="val1x9" type="I" value="-1"/>
+				<Prp name="val2x0" type="B" value="-1"/>
+				<Prp name="val2x1" type="B" value="0"/>
+				<Prp name="val2x10" type="B" value="0"/>
+				<Prp name="val2x11" type="B" value="0"/>
+				<Prp name="val2x12" type="B" value="0"/>
+				<Prp name="val2x13" type="B" value="-1"/>
+				<Prp name="val2x14" type="B" value="0"/>
+				<Prp name="val2x15" type="B" value="0"/>
+				<Prp name="val2x16" type="B" value="0"/>
+				<Prp name="val2x17" type="B" value="0"/>
+				<Prp name="val2x18" type="B" value="-1"/>
+				<Prp name="val2x19" type="B" value="0"/>
+				<Prp name="val2x2" type="B" value="0"/>
+				<Prp name="val2x20" type="B" value="-1"/>
+				<Prp name="val2x21" type="B" value="0"/>
+				<Prp name="val2x22" type="B" value="0"/>
+				<Prp name="val2x23" type="B" value="0"/>
+				<Prp name="val2x24" type="B" value="0"/>
+				<Prp name="val2x25" type="B" value="-1"/>
+				<Prp name="val2x26" type="B" value="0"/>
+				<Prp name="val2x27" type="B" value="0"/>
+				<Prp name="val2x28" type="B" value="-1"/>
+				<Prp name="val2x3" type="B" value="-1"/>
+				<Prp name="val2x4" type="B" value="0"/>
+				<Prp name="val2x5" type="B" value="-1"/>
+				<Prp name="val2x6" type="B" value="0"/>
+				<Prp name="val2x7" type="B" value="-1"/>
+				<Prp name="val2x8" type="B" value="0"/>
+				<Prp name="val2x9" type="B" value="-1"/>
+				<Prp name="val3x0" type="B" value="-1"/>
+				<Prp name="val3x1" type="B" value="-1"/>
+				<Prp name="val3x10" type="B" value="-1"/>
+				<Prp name="val3x11" type="B" value="-1"/>
+				<Prp name="val3x12" type="B" value="-1"/>
+				<Prp name="val3x13" type="B" value="-1"/>
+				<Prp name="val3x14" type="B" value="-1"/>
+				<Prp name="val3x15" type="B" value="-1"/>
+				<Prp name="val3x16" type="B" value="-1"/>
+				<Prp name="val3x17" type="B" value="-1"/>
+				<Prp name="val3x18" type="B" value="-1"/>
+				<Prp name="val3x19" type="B" value="-1"/>
+				<Prp name="val3x2" type="B" value="-1"/>
+				<Prp name="val3x20" type="B" value="-1"/>
+				<Prp name="val3x21" type="B" value="-1"/>
+				<Prp name="val3x22" type="B" value="-1"/>
+				<Prp name="val3x23" type="B" value="-1"/>
+				<Prp name="val3x24" type="B" value="-1"/>
+				<Prp name="val3x25" type="B" value="-1"/>
+				<Prp name="val3x26" type="B" value="-1"/>
+				<Prp name="val3x27" type="B" value="-1"/>
+				<Prp name="val3x28" type="B" value="-1"/>
+				<Prp name="val3x3" type="B" value="-1"/>
+				<Prp name="val3x4" type="B" value="-1"/>
+				<Prp name="val3x5" type="B" value="-1"/>
+				<Prp name="val3x6" type="B" value="-1"/>
+				<Prp name="val3x7" type="B" value="-1"/>
+				<Prp name="val3x8" type="B" value="-1"/>
+				<Prp name="val3x9" type="B" value="-1"/>
+				<Prp name="val4x0" type="S" value="Yahoo! UI library"/>
+				<Prp name="val4x1" type="S" value="Do not use IDs starting with &quot;yui-gen&quot;"/>
+				<Prp name="val4x10" type="S" value="Do not use IDs ending with a string like &quot;ctl00&quot;"/>
+				<Prp name="val4x11" type="S" value="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs"/>
+				<Prp name="val4x12" type="S" value="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string"/>
+				<Prp name="val4x13" type="S" value="Sencha ExtJS"/>
+				<Prp name="val4x14" type="S" value="Do not use IDs containing &quot;ext-gen&quot;"/>
+				<Prp name="val4x15" type="S" value="Do not use IDs containing &quot;ext-comp&quot;"/>
+				<Prp name="val4x16" type="S" value="Do not use IDs starting with &quot;extdd-&quot;"/>
+				<Prp name="val4x17" type="S" value="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;"/>
+				<Prp name="val4x18" type="S" value="Sencha Touch"/>
+				<Prp name="val4x19" type="S" value="Remove dynamic parts of Sencha Touch IDs"/>
+				<Prp name="val4x2" type="S" value="Do not use IDs containing &quot;yui_3_&quot;"/>
+				<Prp name="val4x20" type="S" value="JavaServer Faces"/>
+				<Prp name="val4x21" type="S" value="Do not use IDs like &quot;_t14&quot;"/>
+				<Prp name="val4x22" type="S" value="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;"/>
+				<Prp name="val4x23" type="S" value="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;"/>
+				<Prp name="val4x24" type="S" value="Do not use IDs like &quot;frm:menuLinks:3:link&quot;"/>
+				<Prp name="val4x25" type="S" value="Google Web Toolkit"/>
+				<Prp name="val4x26" type="S" value="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;"/>
+				<Prp name="val4x27" type="S" value="Remove dynamic parts of Sencha GXT IDs"/>
+				<Prp name="val4x28" type="S" value="Custom"/>
+				<Prp name="val4x3" type="S" value="jQuery UI library"/>
+				<Prp name="val4x4" type="S" value="Do not use IDs starting with &quot;ui-id-&quot;"/>
+				<Prp name="val4x5" type="S" value="Dojo toolkit"/>
+				<Prp name="val4x6" type="S" value="Do not use IDs starting with &quot;dijit_&quot;"/>
+				<Prp name="val4x7" type="S" value="Other"/>
+				<Prp name="val4x8" type="S" value="Do not use IDs containing GUID"/>
+				<Prp name="val4x9" type="S" value="ASP.NET"/>
+				<Prp name="val5x0" type="S" value=""/>
+				<Prp name="val5x1" type="S" value="Wildcard"/>
+				<Prp name="val5x10" type="S" value="RegExp"/>
+				<Prp name="val5x11" type="S" value="RegExp"/>
+				<Prp name="val5x12" type="S" value="RegExp"/>
+				<Prp name="val5x13" type="S" value=""/>
+				<Prp name="val5x14" type="S" value="RegExp"/>
+				<Prp name="val5x15" type="S" value="RegExp"/>
+				<Prp name="val5x16" type="S" value="Wildcard"/>
+				<Prp name="val5x17" type="S" value="RegExp"/>
+				<Prp name="val5x18" type="S" value=""/>
+				<Prp name="val5x19" type="S" value="RegExp"/>
+				<Prp name="val5x2" type="S" value="Wildcard"/>
+				<Prp name="val5x20" type="S" value=""/>
+				<Prp name="val5x21" type="S" value="RegExp"/>
+				<Prp name="val5x22" type="S" value="RegExp"/>
+				<Prp name="val5x23" type="S" value="RegExp"/>
+				<Prp name="val5x24" type="S" value="RegExp"/>
+				<Prp name="val5x25" type="S" value=""/>
+				<Prp name="val5x26" type="S" value="RegExp"/>
+				<Prp name="val5x27" type="S" value="RegExp"/>
+				<Prp name="val5x28" type="S" value=""/>
+				<Prp name="val5x3" type="S" value=""/>
+				<Prp name="val5x4" type="S" value="Wildcard"/>
+				<Prp name="val5x5" type="S" value=""/>
+				<Prp name="val5x6" type="S" value="Wildcard"/>
+				<Prp name="val5x7" type="S" value=""/>
+				<Prp name="val5x8" type="S" value="RegExp"/>
+				<Prp name="val5x9" type="S" value=""/>
+				<Prp name="val6x0" type="S" value=""/>
+				<Prp name="val6x1" type="S" value="yui-gen*"/>
+				<Prp name="val6x10" type="S" value="^(.*[-_$])?(ctl[0-9]+)$"/>
+				<Prp name="val6x11" type="S" value="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$"/>
+				<Prp name="val6x12" type="S" value=".*(ctl[0-9]+[-_$]+){.*}"/>
+				<Prp name="val6x13" type="S" value=""/>
+				<Prp name="val6x14" type="S" value="^(.*-)?ext-gen"/>
+				<Prp name="val6x15" type="S" value="^(.*-)?ext-comp"/>
+				<Prp name="val6x16" type="S" value="extdd-*"/>
+				<Prp name="val6x17" type="S" value="^{[A-Za-z-]+}-{\d\d\d\d}{.*}$"/>
+				<Prp name="val6x18" type="S" value=""/>
+				<Prp name="val6x19" type="S" value="^ext-{.*}-\d+$"/>
+				<Prp name="val6x2" type="S" value="*yui_3_*"/>
+				<Prp name="val6x20" type="S" value=""/>
+				<Prp name="val6x21" type="S" value="^{_t}{[0-9]+}$"/>
+				<Prp name="val6x22" type="S" value="^{j_idt?}{[0-9]+}$"/>
+				<Prp name="val6x23" type="S" value="(.+):{[^0-9]+}$"/>
+				<Prp name="val6x24" type="S" value="(.+):(.*)"/>
+				<Prp name="val6x25" type="S" value=""/>
+				<Prp name="val6x26" type="S" value="^(gwt-uid-[0-9]+)(_{.*})?$"/>
+				<Prp name="val6x27" type="S" value="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$"/>
+				<Prp name="val6x28" type="S" value=""/>
+				<Prp name="val6x3" type="S" value=""/>
+				<Prp name="val6x4" type="S" value="ui-id-*"/>
+				<Prp name="val6x5" type="S" value=""/>
+				<Prp name="val6x6" type="S" value="dijit_*"/>
+				<Prp name="val6x7" type="S" value=""/>
+				<Prp name="val6x8" type="S" value="\h+-\h+-\h+-\h+-\h+"/>
+				<Prp name="val6x9" type="S" value=""/>
+				<Prp name="val7x0" type="S" value=""/>
+				<Prp name="val7x1" type="S" value=""/>
+				<Prp name="val7x10" type="S" value=""/>
+				<Prp name="val7x11" type="S" value="$1"/>
+				<Prp name="val7x12" type="S" value="$1"/>
+				<Prp name="val7x13" type="S" value=""/>
+				<Prp name="val7x14" type="S" value=""/>
+				<Prp name="val7x15" type="S" value=""/>
+				<Prp name="val7x16" type="S" value=""/>
+				<Prp name="val7x17" type="S" value="$1$3"/>
+				<Prp name="val7x18" type="S" value=""/>
+				<Prp name="val7x19" type="S" value="$1"/>
+				<Prp name="val7x2" type="S" value=""/>
+				<Prp name="val7x20" type="S" value=""/>
+				<Prp name="val7x21" type="S" value=""/>
+				<Prp name="val7x22" type="S" value=""/>
+				<Prp name="val7x23" type="S" value="$1"/>
+				<Prp name="val7x24" type="S" value=""/>
+				<Prp name="val7x25" type="S" value=""/>
+				<Prp name="val7x26" type="S" value="$1"/>
+				<Prp name="val7x27" type="S" value="$1"/>
+				<Prp name="val7x28" type="S" value=""/>
+				<Prp name="val7x3" type="S" value=""/>
+				<Prp name="val7x4" type="S" value=""/>
+				<Prp name="val7x5" type="S" value=""/>
+				<Prp name="val7x6" type="S" value=""/>
+				<Prp name="val7x7" type="S" value=""/>
+				<Prp name="val7x8" type="S" value=""/>
+				<Prp name="val7x9" type="S" value=""/>
+				<Prp name="val8x0" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x1" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x10" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x11" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x12" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x13" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x14" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x15" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x16" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x17" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x18" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x19" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x2" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x20" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x21" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x22" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x23" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x24" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x25" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x26" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x27" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x28" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x3" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x4" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x5" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x6" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x7" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x8" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x9" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val9x0" type="I" value="0"/>
+				<Prp name="val9x1" type="I" value="0"/>
+				<Prp name="val9x10" type="I" value="0"/>
+				<Prp name="val9x11" type="I" value="0"/>
+				<Prp name="val9x12" type="I" value="0"/>
+				<Prp name="val9x13" type="I" value="0"/>
+				<Prp name="val9x14" type="I" value="0"/>
+				<Prp name="val9x15" type="I" value="0"/>
+				<Prp name="val9x16" type="I" value="0"/>
+				<Prp name="val9x17" type="I" value="0"/>
+				<Prp name="val9x18" type="I" value="0"/>
+				<Prp name="val9x19" type="I" value="0"/>
+				<Prp name="val9x2" type="I" value="0"/>
+				<Prp name="val9x20" type="I" value="0"/>
+				<Prp name="val9x21" type="I" value="0"/>
+				<Prp name="val9x22" type="I" value="0"/>
+				<Prp name="val9x23" type="I" value="0"/>
+				<Prp name="val9x24" type="I" value="0"/>
+				<Prp name="val9x25" type="I" value="0"/>
+				<Prp name="val9x26" type="I" value="0"/>
+				<Prp name="val9x27" type="I" value="0"/>
+				<Prp name="val9x28" type="I" value="0"/>
+				<Prp name="val9x3" type="I" value="0"/>
+				<Prp name="val9x4" type="I" value="0"/>
+				<Prp name="val9x5" type="I" value="0"/>
+				<Prp name="val9x6" type="I" value="0"/>
+				<Prp name="val9x7" type="I" value="0"/>
+				<Prp name="val9x8" type="I" value="0"/>
+				<Prp name="val9x9" type="I" value="0"/>
+			</Node>
 			<Node name="{2044dc7f-423e-4668-8114-68d23ae97ad6}">
 				<Prp name="type" type="I" value="2"/>
 				<Prp name="value" type="I" value="50"/>
@@ -152,6 +484,20 @@
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
+			<Node name="{323facda-38e8-4c1b-b22c-99e0ab90eadc}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="{33c0a94e-7f58-493c-bccc-91685352f9b4}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="*"/>
+			</Node>
 			<Node name="{3a4f97b3-d3d3-41e5-be37-c419b02d488a}">
 				<Prp name="col0enabled" type="B" value="-1"/>
 				<Prp name="col0type" type="I" value="5"/>
@@ -173,7 +519,7 @@
 			</Node>
 			<Node name="{3ae91bbd-f37d-40e6-b49d-d2f1ef68e285}">
 				<Prp name="type" type="I" value="1"/>
-				<Prp name="value" type="B" value="0"/>
+				<Prp name="value" type="B" value="-1"/>
 			</Node>
 			<Node name="{3b76535b-58ad-456c-837e-091a5c480f6c}">
 				<Prp name="type" type="I" value="1"/>
@@ -264,6 +610,10 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{542b9fa0-35ea-4c4d-bf0b-661005cb94e9}">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="60000"/>
+			</Node>
 			<Node name="{596ca0d0-27cb-40d3-baa5-bc1cecff25ac}">
 				<Prp name="col0enabled" type="B" value="-1"/>
 				<Prp name="col0type" type="I" value="1"/>
@@ -292,9 +642,114 @@
 				<Prp name="val0x0" type="S" value="Tree"/>
 				<Prp name="val0x1" type="S" value="Flat"/>
 			</Node>
+			<Node name="{74cc9f3b-2e52-4b16-844a-9ee33532b51e}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="{7a4ee551-25fe-4c1a-8967-fa26b3c27ad7}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="2"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="2"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="1"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="1"/>
+				<Prp name="col4enabled" type="B" value="-1"/>
+				<Prp name="col4type" type="I" value="1"/>
+				<Prp name="col5enabled" type="B" value="-1"/>
+				<Prp name="col5type" type="I" value="5"/>
+				<Prp name="col6enabled" type="B" value="-1"/>
+				<Prp name="col6type" type="I" value="5"/>
+				<Prp name="col7enabled" type="B" value="-1"/>
+				<Prp name="col7type" type="I" value="2"/>
+				<Prp name="col8enabled" type="B" value="-1"/>
+				<Prp name="col8type" type="I" value="2"/>
+				<Prp name="colcount" type="I" value="9"/>
+				<Prp name="colindex" type="I" value="8"/>
+				<Prp name="rowcount" type="I" value="8"/>
+				<Prp name="rowindex" type="I" value="7"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="I" value="-1"/>
+				<Prp name="val0x1" type="I" value="-1"/>
+				<Prp name="val0x2" type="I" value="-1"/>
+				<Prp name="val0x3" type="I" value="-1"/>
+				<Prp name="val0x4" type="I" value="-1"/>
+				<Prp name="val0x5" type="I" value="-1"/>
+				<Prp name="val0x6" type="I" value="-1"/>
+				<Prp name="val0x7" type="I" value="-1"/>
+				<Prp name="val1x0" type="I" value="-1"/>
+				<Prp name="val1x1" type="I" value="-1"/>
+				<Prp name="val1x2" type="I" value="-1"/>
+				<Prp name="val1x3" type="I" value="-1"/>
+				<Prp name="val1x4" type="I" value="-1"/>
+				<Prp name="val1x5" type="I" value="-1"/>
+				<Prp name="val1x6" type="I" value="-1"/>
+				<Prp name="val1x7" type="I" value="-1"/>
+				<Prp name="val2x0" type="B" value="0"/>
+				<Prp name="val2x1" type="B" value="0"/>
+				<Prp name="val2x2" type="B" value="0"/>
+				<Prp name="val2x3" type="B" value="0"/>
+				<Prp name="val2x4" type="B" value="0"/>
+				<Prp name="val2x5" type="B" value="0"/>
+				<Prp name="val2x6" type="B" value="0"/>
+				<Prp name="val2x7" type="B" value="0"/>
+				<Prp name="val3x0" type="B" value="-1"/>
+				<Prp name="val3x1" type="B" value="-1"/>
+				<Prp name="val3x2" type="B" value="-1"/>
+				<Prp name="val3x3" type="B" value="-1"/>
+				<Prp name="val3x4" type="B" value="-1"/>
+				<Prp name="val3x5" type="B" value="-1"/>
+				<Prp name="val3x6" type="B" value="-1"/>
+				<Prp name="val3x7" type="B" value="-1"/>
+				<Prp name="val4x0" type="B" value="0"/>
+				<Prp name="val4x1" type="B" value="0"/>
+				<Prp name="val4x2" type="B" value="0"/>
+				<Prp name="val4x3" type="B" value="0"/>
+				<Prp name="val4x4" type="B" value="0"/>
+				<Prp name="val4x5" type="B" value="0"/>
+				<Prp name="val4x6" type="B" value="0"/>
+				<Prp name="val4x7" type="B" value="0"/>
+				<Prp name="val5x0" type="S" value="Apple iPad"/>
+				<Prp name="val5x1" type="S" value="Apple iPhone 3"/>
+				<Prp name="val5x2" type="S" value="Apple iPhone 5"/>
+				<Prp name="val5x3" type="S" value="Blackberry Z10"/>
+				<Prp name="val5x4" type="S" value="Nokia Lumia 800"/>
+				<Prp name="val5x5" type="S" value="Samsung Galaxy Mini"/>
+				<Prp name="val5x6" type="S" value="Samsung Galaxy S3"/>
+				<Prp name="val5x7" type="S" value="Samsung Nexus 10"/>
+				<Prp name="val6x0" type="S" value="Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25"/>
+				<Prp name="val6x1" type="S" value="Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"/>
+				<Prp name="val6x2" type="S" value="Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B350 Safari/8536.25"/>
+				<Prp name="val6x3" type="S" value="Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+"/>
+				<Prp name="val6x4" type="S" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800)"/>
+				<Prp name="val6x5" type="S" value="Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; GT-S5570I Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"/>
+				<Prp name="val6x6" type="S" value="Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"/>
+				<Prp name="val6x7" type="S" value="Mozilla/5.0 (Linux; Android 4.2.1; Nexus 10 Build/JOP40D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.37 Safari/537.22"/>
+				<Prp name="val7x0" type="I" value="768"/>
+				<Prp name="val7x1" type="I" value="320"/>
+				<Prp name="val7x2" type="I" value="320"/>
+				<Prp name="val7x3" type="I" value="342"/>
+				<Prp name="val7x4" type="I" value="480"/>
+				<Prp name="val7x5" type="I" value="240"/>
+				<Prp name="val7x6" type="I" value="360"/>
+				<Prp name="val7x7" type="I" value="800"/>
+				<Prp name="val8x0" type="I" value="1024"/>
+				<Prp name="val8x1" type="I" value="480"/>
+				<Prp name="val8x2" type="I" value="568"/>
+				<Prp name="val8x3" type="I" value="570"/>
+				<Prp name="val8x4" type="I" value="800"/>
+				<Prp name="val8x5" type="I" value="320"/>
+				<Prp name="val8x6" type="I" value="640"/>
+				<Prp name="val8x7" type="I" value="1280"/>
+			</Node>
 			<Node name="{7e9d3e8b-dff5-4737-a877-e94b6b932bcd}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{829bc6ca-56d1-46a4-89b9-e15802964005}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="{85cd048a-29ff-4abf-95a6-b915aea2c10d}">
 				<Prp name="type" type="I" value="1"/>
@@ -342,6 +797,17 @@
 				<Prp name="rowindex" type="I" value="-1"/>
 				<Prp name="type" type="I" value="6"/>
 			</Node>
+			<Node name="{95e3327a-7433-4a00-9257-6e9a4b4f1795}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="2"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="ID"/>
+				<Prp name="val0x1" type="S" value="Name"/>
+			</Node>
 			<Node name="{98c6a210-59ef-4cd6-aa7e-b41953dec74a}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
@@ -370,7 +836,42 @@
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
+			<Node name="{abe9c069-5d2d-4fba-b1b0-ff96c0f0b1f6}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="4"/>
+				<Prp name="rowindex" type="I" value="3"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="DOM"/>
+				<Prp name="val0x1" type="S" value="Tag"/>
+				<Prp name="val0x2" type="S" value="Hybrid"/>
+				<Prp name="val0x3" type="S" value="Tree"/>
+			</Node>
+			<Node name="{acff4ef1-2d8d-4a5b-a55f-6f64df82662b}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="1"/>
+				<Prp name="colindex" type="I" value="0"/>
+				<Prp name="rowcount" type="I" value="9"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="S" value="None"/>
+				<Prp name="val0x1" type="S" value="Apple iPad"/>
+				<Prp name="val0x2" type="S" value="Apple iPhone 3"/>
+				<Prp name="val0x3" type="S" value="Apple iPhone 5"/>
+				<Prp name="val0x4" type="S" value="Blackberry Z10"/>
+				<Prp name="val0x5" type="S" value="Nokia Lumia 800"/>
+				<Prp name="val0x6" type="S" value="Samsung Galaxy Mini"/>
+				<Prp name="val0x7" type="S" value="Samsung Galaxy S3"/>
+				<Prp name="val0x8" type="S" value="Samsung Nexus 10"/>
+			</Node>
 			<Node name="{ae3f26d8-a5bd-4172-9f50-f2b9d1d03611}">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="-1"/>
+			</Node>
+			<Node name="{bc2725ab-c90d-4761-beb2-abace30fe554}">
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="-1"/>
 			</Node>
@@ -420,9 +921,343 @@
 				<Prp name="type" type="I" value="2"/>
 				<Prp name="value" type="I" value="10"/>
 			</Node>
+			<Node name="{d852bfd9-d446-4748-906f-1fa580d41304}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="1"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="5"/>
+				<Prp name="colcount" type="I" value="2"/>
+				<Prp name="colindex" type="I" value="1"/>
+				<Prp name="rowcount" type="I" value="1"/>
+				<Prp name="rowindex" type="I" value="0"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="B" value="-1"/>
+				<Prp name="val1x0" type="S" value="%PRODUCT_LOCATION%\Open Apps\Flex\FlashInjector.swf"/>
+			</Node>
+			<Node name="{db42ceab-bfc4-40db-9f48-9197d35fb5e2}">
+				<Prp name="col0enabled" type="B" value="-1"/>
+				<Prp name="col0type" type="I" value="2"/>
+				<Prp name="col1enabled" type="B" value="-1"/>
+				<Prp name="col1type" type="I" value="2"/>
+				<Prp name="col2enabled" type="B" value="-1"/>
+				<Prp name="col2type" type="I" value="1"/>
+				<Prp name="col3enabled" type="B" value="-1"/>
+				<Prp name="col3type" type="I" value="1"/>
+				<Prp name="col4enabled" type="B" value="-1"/>
+				<Prp name="col4type" type="I" value="5"/>
+				<Prp name="col5enabled" type="B" value="-1"/>
+				<Prp name="col5type" type="I" value="5"/>
+				<Prp name="col6enabled" type="B" value="-1"/>
+				<Prp name="col6type" type="I" value="5"/>
+				<Prp name="col7enabled" type="B" value="-1"/>
+				<Prp name="col7type" type="I" value="5"/>
+				<Prp name="col8enabled" type="B" value="-1"/>
+				<Prp name="col8type" type="I" value="5"/>
+				<Prp name="col9enabled" type="B" value="-1"/>
+				<Prp name="col9type" type="I" value="2"/>
+				<Prp name="colcount" type="I" value="10"/>
+				<Prp name="colindex" type="I" value="9"/>
+				<Prp name="rowcount" type="I" value="29"/>
+				<Prp name="rowindex" type="I" value="28"/>
+				<Prp name="type" type="I" value="6"/>
+				<Prp name="val0x0" type="I" value="-1"/>
+				<Prp name="val0x1" type="I" value="0"/>
+				<Prp name="val0x10" type="I" value="9"/>
+				<Prp name="val0x11" type="I" value="9"/>
+				<Prp name="val0x12" type="I" value="9"/>
+				<Prp name="val0x13" type="I" value="-1"/>
+				<Prp name="val0x14" type="I" value="13"/>
+				<Prp name="val0x15" type="I" value="13"/>
+				<Prp name="val0x16" type="I" value="13"/>
+				<Prp name="val0x17" type="I" value="13"/>
+				<Prp name="val0x18" type="I" value="-1"/>
+				<Prp name="val0x19" type="I" value="18"/>
+				<Prp name="val0x2" type="I" value="0"/>
+				<Prp name="val0x20" type="I" value="-1"/>
+				<Prp name="val0x21" type="I" value="20"/>
+				<Prp name="val0x22" type="I" value="20"/>
+				<Prp name="val0x23" type="I" value="20"/>
+				<Prp name="val0x24" type="I" value="20"/>
+				<Prp name="val0x25" type="I" value="-1"/>
+				<Prp name="val0x26" type="I" value="25"/>
+				<Prp name="val0x27" type="I" value="25"/>
+				<Prp name="val0x28" type="I" value="-1"/>
+				<Prp name="val0x3" type="I" value="-1"/>
+				<Prp name="val0x4" type="I" value="3"/>
+				<Prp name="val0x5" type="I" value="-1"/>
+				<Prp name="val0x6" type="I" value="5"/>
+				<Prp name="val0x7" type="I" value="-1"/>
+				<Prp name="val0x8" type="I" value="7"/>
+				<Prp name="val0x9" type="I" value="-1"/>
+				<Prp name="val1x0" type="I" value="-1"/>
+				<Prp name="val1x1" type="I" value="-1"/>
+				<Prp name="val1x10" type="I" value="-1"/>
+				<Prp name="val1x11" type="I" value="-1"/>
+				<Prp name="val1x12" type="I" value="-1"/>
+				<Prp name="val1x13" type="I" value="-1"/>
+				<Prp name="val1x14" type="I" value="-1"/>
+				<Prp name="val1x15" type="I" value="-1"/>
+				<Prp name="val1x16" type="I" value="-1"/>
+				<Prp name="val1x17" type="I" value="-1"/>
+				<Prp name="val1x18" type="I" value="-1"/>
+				<Prp name="val1x19" type="I" value="-1"/>
+				<Prp name="val1x2" type="I" value="-1"/>
+				<Prp name="val1x20" type="I" value="-1"/>
+				<Prp name="val1x21" type="I" value="-1"/>
+				<Prp name="val1x22" type="I" value="-1"/>
+				<Prp name="val1x23" type="I" value="-1"/>
+				<Prp name="val1x24" type="I" value="-1"/>
+				<Prp name="val1x25" type="I" value="-1"/>
+				<Prp name="val1x26" type="I" value="-1"/>
+				<Prp name="val1x27" type="I" value="-1"/>
+				<Prp name="val1x28" type="I" value="-1"/>
+				<Prp name="val1x3" type="I" value="-1"/>
+				<Prp name="val1x4" type="I" value="-1"/>
+				<Prp name="val1x5" type="I" value="-1"/>
+				<Prp name="val1x6" type="I" value="-1"/>
+				<Prp name="val1x7" type="I" value="-1"/>
+				<Prp name="val1x8" type="I" value="-1"/>
+				<Prp name="val1x9" type="I" value="-1"/>
+				<Prp name="val2x0" type="B" value="-1"/>
+				<Prp name="val2x1" type="B" value="0"/>
+				<Prp name="val2x10" type="B" value="0"/>
+				<Prp name="val2x11" type="B" value="0"/>
+				<Prp name="val2x12" type="B" value="0"/>
+				<Prp name="val2x13" type="B" value="-1"/>
+				<Prp name="val2x14" type="B" value="0"/>
+				<Prp name="val2x15" type="B" value="0"/>
+				<Prp name="val2x16" type="B" value="0"/>
+				<Prp name="val2x17" type="B" value="0"/>
+				<Prp name="val2x18" type="B" value="-1"/>
+				<Prp name="val2x19" type="B" value="0"/>
+				<Prp name="val2x2" type="B" value="0"/>
+				<Prp name="val2x20" type="B" value="-1"/>
+				<Prp name="val2x21" type="B" value="0"/>
+				<Prp name="val2x22" type="B" value="0"/>
+				<Prp name="val2x23" type="B" value="0"/>
+				<Prp name="val2x24" type="B" value="0"/>
+				<Prp name="val2x25" type="B" value="-1"/>
+				<Prp name="val2x26" type="B" value="0"/>
+				<Prp name="val2x27" type="B" value="0"/>
+				<Prp name="val2x28" type="B" value="-1"/>
+				<Prp name="val2x3" type="B" value="-1"/>
+				<Prp name="val2x4" type="B" value="0"/>
+				<Prp name="val2x5" type="B" value="-1"/>
+				<Prp name="val2x6" type="B" value="0"/>
+				<Prp name="val2x7" type="B" value="-1"/>
+				<Prp name="val2x8" type="B" value="0"/>
+				<Prp name="val2x9" type="B" value="-1"/>
+				<Prp name="val3x0" type="B" value="-1"/>
+				<Prp name="val3x1" type="B" value="-1"/>
+				<Prp name="val3x10" type="B" value="-1"/>
+				<Prp name="val3x11" type="B" value="-1"/>
+				<Prp name="val3x12" type="B" value="-1"/>
+				<Prp name="val3x13" type="B" value="-1"/>
+				<Prp name="val3x14" type="B" value="-1"/>
+				<Prp name="val3x15" type="B" value="-1"/>
+				<Prp name="val3x16" type="B" value="-1"/>
+				<Prp name="val3x17" type="B" value="-1"/>
+				<Prp name="val3x18" type="B" value="-1"/>
+				<Prp name="val3x19" type="B" value="-1"/>
+				<Prp name="val3x2" type="B" value="-1"/>
+				<Prp name="val3x20" type="B" value="-1"/>
+				<Prp name="val3x21" type="B" value="-1"/>
+				<Prp name="val3x22" type="B" value="-1"/>
+				<Prp name="val3x23" type="B" value="-1"/>
+				<Prp name="val3x24" type="B" value="-1"/>
+				<Prp name="val3x25" type="B" value="-1"/>
+				<Prp name="val3x26" type="B" value="-1"/>
+				<Prp name="val3x27" type="B" value="-1"/>
+				<Prp name="val3x28" type="B" value="-1"/>
+				<Prp name="val3x3" type="B" value="-1"/>
+				<Prp name="val3x4" type="B" value="-1"/>
+				<Prp name="val3x5" type="B" value="-1"/>
+				<Prp name="val3x6" type="B" value="-1"/>
+				<Prp name="val3x7" type="B" value="-1"/>
+				<Prp name="val3x8" type="B" value="-1"/>
+				<Prp name="val3x9" type="B" value="-1"/>
+				<Prp name="val4x0" type="S" value="Yahoo! UI library"/>
+				<Prp name="val4x1" type="S" value="Do not use IDs starting with &quot;yui-gen&quot;"/>
+				<Prp name="val4x10" type="S" value="Do not use IDs ending with a string like &quot;ctl00&quot;"/>
+				<Prp name="val4x11" type="S" value="Remove GUIDs and ctl00-like prefixes from Sharepoint IDs"/>
+				<Prp name="val4x12" type="S" value="For IDs containing a string like &quot;ctl00_&quot;, leave only symbols after this string"/>
+				<Prp name="val4x13" type="S" value="Sencha ExtJS"/>
+				<Prp name="val4x14" type="S" value="Do not use IDs containing &quot;ext-gen&quot;"/>
+				<Prp name="val4x15" type="S" value="Do not use IDs containing &quot;ext-comp&quot;"/>
+				<Prp name="val4x16" type="S" value="Do not use IDs starting with &quot;extdd-&quot;"/>
+				<Prp name="val4x17" type="S" value="Remove digits from IDs like &quot;treepicker-1038&quot; or &quot;treepicker-1038-inputEl&quot;"/>
+				<Prp name="val4x18" type="S" value="Sencha Touch"/>
+				<Prp name="val4x19" type="S" value="Remove dynamic parts of Sencha Touch IDs"/>
+				<Prp name="val4x2" type="S" value="Do not use IDs containing &quot;yui_3_&quot;"/>
+				<Prp name="val4x20" type="S" value="JavaServer Faces"/>
+				<Prp name="val4x21" type="S" value="Do not use IDs like &quot;_t14&quot;"/>
+				<Prp name="val4x22" type="S" value="Do not use IDs like &quot;j_id23&quot; or &quot;j_idt23&quot;"/>
+				<Prp name="val4x23" type="S" value="Remove all but the last part of IDs like &quot;frm:menuLinks:0:link&quot;"/>
+				<Prp name="val4x24" type="S" value="Do not use IDs like &quot;frm:menuLinks:3:link&quot;"/>
+				<Prp name="val4x25" type="S" value="Google Web Toolkit"/>
+				<Prp name="val4x26" type="S" value="Remove all but the last part of IDs like &quot;gwt-uid-370_runButton&quot;"/>
+				<Prp name="val4x27" type="S" value="Remove dynamic parts of Sencha GXT IDs"/>
+				<Prp name="val4x28" type="S" value="Custom"/>
+				<Prp name="val4x3" type="S" value="jQuery UI library"/>
+				<Prp name="val4x4" type="S" value="Do not use IDs starting with &quot;ui-id-&quot;"/>
+				<Prp name="val4x5" type="S" value="Dojo toolkit"/>
+				<Prp name="val4x6" type="S" value="Do not use IDs starting with &quot;dijit_&quot;"/>
+				<Prp name="val4x7" type="S" value="Other"/>
+				<Prp name="val4x8" type="S" value="Do not use IDs containing GUID"/>
+				<Prp name="val4x9" type="S" value="ASP.NET"/>
+				<Prp name="val5x0" type="S" value=""/>
+				<Prp name="val5x1" type="S" value="Wildcard"/>
+				<Prp name="val5x10" type="S" value="RegExp"/>
+				<Prp name="val5x11" type="S" value="RegExp"/>
+				<Prp name="val5x12" type="S" value="RegExp"/>
+				<Prp name="val5x13" type="S" value=""/>
+				<Prp name="val5x14" type="S" value="RegExp"/>
+				<Prp name="val5x15" type="S" value="RegExp"/>
+				<Prp name="val5x16" type="S" value="Wildcard"/>
+				<Prp name="val5x17" type="S" value="RegExp"/>
+				<Prp name="val5x18" type="S" value=""/>
+				<Prp name="val5x19" type="S" value="RegExp"/>
+				<Prp name="val5x2" type="S" value="Wildcard"/>
+				<Prp name="val5x20" type="S" value=""/>
+				<Prp name="val5x21" type="S" value="RegExp"/>
+				<Prp name="val5x22" type="S" value="RegExp"/>
+				<Prp name="val5x23" type="S" value="RegExp"/>
+				<Prp name="val5x24" type="S" value="RegExp"/>
+				<Prp name="val5x25" type="S" value=""/>
+				<Prp name="val5x26" type="S" value="RegExp"/>
+				<Prp name="val5x27" type="S" value="RegExp"/>
+				<Prp name="val5x28" type="S" value=""/>
+				<Prp name="val5x3" type="S" value=""/>
+				<Prp name="val5x4" type="S" value="Wildcard"/>
+				<Prp name="val5x5" type="S" value=""/>
+				<Prp name="val5x6" type="S" value="Wildcard"/>
+				<Prp name="val5x7" type="S" value=""/>
+				<Prp name="val5x8" type="S" value="RegExp"/>
+				<Prp name="val5x9" type="S" value=""/>
+				<Prp name="val6x0" type="S" value=""/>
+				<Prp name="val6x1" type="S" value="yui-gen*"/>
+				<Prp name="val6x10" type="S" value="^(.*[-_$])?(ctl[0-9]+)$"/>
+				<Prp name="val6x11" type="S" value="(.+?_(\h+_\h+_\h+_\h+_\h+))+(.*ctr?l[0-9]+)?[_$]?{.*}$"/>
+				<Prp name="val6x12" type="S" value=".*(ctl[0-9]+[-_$]+){.*}"/>
+				<Prp name="val6x13" type="S" value=""/>
+				<Prp name="val6x14" type="S" value="^(.*-)?ext-gen"/>
+				<Prp name="val6x15" type="S" value="^(.*-)?ext-comp"/>
+				<Prp name="val6x16" type="S" value="extdd-*"/>
+				<Prp name="val6x17" type="S" value="^{[A-Za-z-]+}-{\d\d\d\d}{.*}$"/>
+				<Prp name="val6x18" type="S" value=""/>
+				<Prp name="val6x19" type="S" value="^ext-{.*}-\d+$"/>
+				<Prp name="val6x2" type="S" value="*yui_3_*"/>
+				<Prp name="val6x20" type="S" value=""/>
+				<Prp name="val6x21" type="S" value="^{_t}{[0-9]+}$"/>
+				<Prp name="val6x22" type="S" value="^{j_idt?}{[0-9]+}$"/>
+				<Prp name="val6x23" type="S" value="(.+):{[^0-9]+}$"/>
+				<Prp name="val6x24" type="S" value="(.+):(.*)"/>
+				<Prp name="val6x25" type="S" value=""/>
+				<Prp name="val6x26" type="S" value="^(gwt-uid-[0-9]+)(_{.*})?$"/>
+				<Prp name="val6x27" type="S" value="^(x-((widget)|(auto))-.*[0-9]+)([-_]{.*})?$"/>
+				<Prp name="val6x28" type="S" value=""/>
+				<Prp name="val6x3" type="S" value=""/>
+				<Prp name="val6x4" type="S" value="ui-id-*"/>
+				<Prp name="val6x5" type="S" value=""/>
+				<Prp name="val6x6" type="S" value="dijit_*"/>
+				<Prp name="val6x7" type="S" value=""/>
+				<Prp name="val6x8" type="S" value="\h+-\h+-\h+-\h+-\h+"/>
+				<Prp name="val6x9" type="S" value=""/>
+				<Prp name="val7x0" type="S" value=""/>
+				<Prp name="val7x1" type="S" value=""/>
+				<Prp name="val7x10" type="S" value=""/>
+				<Prp name="val7x11" type="S" value="$1"/>
+				<Prp name="val7x12" type="S" value="$1"/>
+				<Prp name="val7x13" type="S" value=""/>
+				<Prp name="val7x14" type="S" value=""/>
+				<Prp name="val7x15" type="S" value=""/>
+				<Prp name="val7x16" type="S" value=""/>
+				<Prp name="val7x17" type="S" value="$1$3"/>
+				<Prp name="val7x18" type="S" value=""/>
+				<Prp name="val7x19" type="S" value="$1"/>
+				<Prp name="val7x2" type="S" value=""/>
+				<Prp name="val7x20" type="S" value=""/>
+				<Prp name="val7x21" type="S" value=""/>
+				<Prp name="val7x22" type="S" value=""/>
+				<Prp name="val7x23" type="S" value="$1"/>
+				<Prp name="val7x24" type="S" value=""/>
+				<Prp name="val7x25" type="S" value=""/>
+				<Prp name="val7x26" type="S" value="$1"/>
+				<Prp name="val7x27" type="S" value="$1"/>
+				<Prp name="val7x28" type="S" value=""/>
+				<Prp name="val7x3" type="S" value=""/>
+				<Prp name="val7x4" type="S" value=""/>
+				<Prp name="val7x5" type="S" value=""/>
+				<Prp name="val7x6" type="S" value=""/>
+				<Prp name="val7x7" type="S" value=""/>
+				<Prp name="val7x8" type="S" value=""/>
+				<Prp name="val7x9" type="S" value=""/>
+				<Prp name="val8x0" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x1" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x10" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x11" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x12" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x13" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x14" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x15" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x16" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x17" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x18" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x19" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x2" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x20" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x21" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x22" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x23" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x24" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x25" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x26" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x27" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x28" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x3" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x4" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x5" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x6" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x7" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x8" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val8x9" type="S" value="Wildcard&#xA;RegExp"/>
+				<Prp name="val9x0" type="I" value="0"/>
+				<Prp name="val9x1" type="I" value="0"/>
+				<Prp name="val9x10" type="I" value="0"/>
+				<Prp name="val9x11" type="I" value="0"/>
+				<Prp name="val9x12" type="I" value="0"/>
+				<Prp name="val9x13" type="I" value="0"/>
+				<Prp name="val9x14" type="I" value="0"/>
+				<Prp name="val9x15" type="I" value="0"/>
+				<Prp name="val9x16" type="I" value="0"/>
+				<Prp name="val9x17" type="I" value="0"/>
+				<Prp name="val9x18" type="I" value="0"/>
+				<Prp name="val9x19" type="I" value="0"/>
+				<Prp name="val9x2" type="I" value="0"/>
+				<Prp name="val9x20" type="I" value="0"/>
+				<Prp name="val9x21" type="I" value="0"/>
+				<Prp name="val9x22" type="I" value="0"/>
+				<Prp name="val9x23" type="I" value="0"/>
+				<Prp name="val9x24" type="I" value="0"/>
+				<Prp name="val9x25" type="I" value="0"/>
+				<Prp name="val9x26" type="I" value="0"/>
+				<Prp name="val9x27" type="I" value="0"/>
+				<Prp name="val9x28" type="I" value="0"/>
+				<Prp name="val9x3" type="I" value="0"/>
+				<Prp name="val9x4" type="I" value="0"/>
+				<Prp name="val9x5" type="I" value="0"/>
+				<Prp name="val9x6" type="I" value="0"/>
+				<Prp name="val9x7" type="I" value="0"/>
+				<Prp name="val9x8" type="I" value="0"/>
+				<Prp name="val9x9" type="I" value="0"/>
+			</Node>
 			<Node name="{e3ac1830-9216-4dc9-ab7b-884f3b0e9a48}">
 				<Prp name="type" type="I" value="2"/>
 				<Prp name="value" type="I" value="0"/>
+			</Node>
+			<Node name="{e47a2931-ee5d-42d2-8cb7-3796de597aa1}">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
 			</Node>
 			<Node name="{e5242a20-9b70-4540-aefd-7012791d3284}">
 				<Prp name="type" type="I" value="1"/>
@@ -444,11 +1279,17 @@
 				<Prp name="col0type" type="I" value="5"/>
 				<Prp name="colcount" type="I" value="1"/>
 				<Prp name="colindex" type="I" value="0"/>
-				<Prp name="rowcount" type="I" value="10"/>
-				<Prp name="rowindex" type="I" value="9"/>
+				<Prp name="rowcount" type="I" value="16"/>
+				<Prp name="rowindex" type="I" value="15"/>
 				<Prp name="type" type="I" value="6"/>
 				<Prp name="val0x0" type="S" value="NativeVBObject"/>
 				<Prp name="val0x1" type="S" value="NativeDelphiObject"/>
+				<Prp name="val0x10" type="S" value="NativeSlObject"/>
+				<Prp name="val0x11" type="S" value="NativeWebObject"/>
+				<Prp name="val0x12" type="S" value="NativeSafariObject"/>
+				<Prp name="val0x13" type="S" value="NativeOperaObject"/>
+				<Prp name="val0x14" type="S" value="NativeChromeObject"/>
+				<Prp name="val0x15" type="S" value="NativeFirefoxObject"/>
 				<Prp name="val0x2" type="S" value="NativeTextObject"/>
 				<Prp name="val0x3" type="S" value="NativeJavaObject"/>
 				<Prp name="val0x4" type="S" value="NativeClrObject"/>
@@ -473,6 +1314,10 @@
 			<Node name="{fe195f25-7dc0-457f-9336-71ed39243753}">
 				<Prp name="type" type="I" value="5"/>
 				<Prp name="value" type="S" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_"/>
+			</Node>
+			<Node name="agopenapp_extendedsilverlightobjecttree">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
 			</Node>
 			<Node name="applicationhangingprocessfiltermode">
 				<Prp name="col0enabled" type="B" value="-1"/>
@@ -650,6 +1495,18 @@
 				<Prp name="type" type="I" value="1"/>
 				<Prp name="value" type="B" value="0"/>
 			</Node>
+			<Node name="runstandaloneserver">
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="value" type="B" value="0"/>
+			</Node>
+			<Node name="standaloneserveradditionaloptions">
+				<Prp name="type" type="I" value="5"/>
+				<Prp name="value" type="S" value=""/>
+			</Node>
+			<Node name="standaloneserverport">
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="value" type="I" value="4444"/>
+			</Node>
 			<Node name="textrecognizer_acceptedwindows">
 				<Prp name="col0enabled" type="B" value="-1"/>
 				<Prp name="col0type" type="I" value="1"/>
@@ -667,11 +1524,26 @@
 		<Node name="test data">
 			<Node name="child list">
 				<Node name="item idx=0000">
-					<Node name="child list"/>
+					<Node name="child list">
+						<Node name="item idx=0000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{B6202AA4-7520-4546-8249-C220CA91FE35}"/>
+							<Prp name="name" type="S" value="ProjectTestItem6"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{18386255-F2D2-4689-836E-12A6A7924807}showIntellectPopUPMenu"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="0"/>
 					<Prp name="key" type="S" value="{1A3F343D-4CF1-4F34-9721-63F6C9C14FA5}"/>
 					<Prp name="name" type="S" value="ProjectTestItem41"/>
@@ -681,22 +1553,22 @@
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
 				<Node name="item idx=0001">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="key" type="S" value="{4F825E85-F6A8-4264-9B42-BA0303B4F75F}"/>
+					<Prp name="name" type="S" value="ProjectTestItem2"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value="{18386255-F2D2-4689-836E-12A6A7924807}showIntellectPopUPMenu"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0002">
 					<Node name="child list">
 						<Node name="item idx=0000">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{14948E63-4072-4836-9E4A-866B03E212E5}"/>
-							<Prp name="name" type="S" value="ProjectTestItem1"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
 							<Node name="child list"/>
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
@@ -710,7 +1582,7 @@
 							<Prp name="test moniker" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}SetDevBilanciaiD400"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0002">
+						<Node name="item idx=0001">
 							<Node name="child list"/>
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
@@ -722,20 +1594,6 @@
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
 							<Prp name="test moniker" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}SendSetDevBilanciaiD400MessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{AA909ADF-4392-4A42-A4DA-2B4C31478225}"/>
-							<Prp name="name" type="S" value="ProjectTestItem2"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
@@ -751,77 +1609,6 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0002">
-					<Node name="child list">
-						<Node name="item idx=0000">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{10212A6C-8826-4B95-9047-09BCAA2F447C}"/>
-							<Prp name="name" type="S" value="ProjectTestItem7"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{872EC93E-968E-48C9-9F36-2CDB22B29023}"/>
-							<Prp name="name" type="S" value="ProjectTestItem6"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{1B0769C7-419F-45CC-836D-9E55CE171BA0}SetDevBarScan"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{4D9BBB9E-9173-4082-9FF6-90E2202FA4E8}"/>
-							<Prp name="name" type="S" value="ProjectTestItem5"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{1B0769C7-419F-45CC-836D-9E55CE171BA0}SendSetDevBarScanMessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{49DF5A05-A367-4D05-8974-DAB68DC6F5DD}"/>
-							<Prp name="name" type="S" value="ProjectTestItem8"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-					</Node>
-					<Node name="test parameters"/>
-					<Prp name="count" type="I" value="1"/>
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
-					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{5CD047A4-2814-4684-A3DF-D841622C9452}"/>
-					<Prp name="name" type="S" value="DevBarScan"/>
-					<Prp name="stoponerror" type="I" value="2"/>
-					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value=""/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
 				<Node name="item idx=0003">
 					<Node name="child list">
 						<Node name="item idx=0000">
@@ -829,21 +1616,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{619FF2C7-4AD1-458A-82A7-9BF8DA6D1824}"/>
-							<Prp name="name" type="S" value="ProjectTestItem11"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{C92637BF-BE5C-469D-8AA1-82421F369981}"/>
 							<Prp name="name" type="S" value="ProjectTestItem10"/>
@@ -852,12 +1625,12 @@
 							<Prp name="test moniker" type="S" value="{9A842ED1-B604-4569-90CF-605235EE8D98}SetDevEsitART"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0002">
+						<Node name="item idx=0001">
 							<Node name="child list"/>
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{AD37D018-8B78-4262-A385-62B8D6AD8410}"/>
 							<Prp name="name" type="S" value="ProjectTestItem9"/>
@@ -866,25 +1639,11 @@
 							<Prp name="test moniker" type="S" value="{9A842ED1-B604-4569-90CF-605235EE8D98}SendSetDevEsitARTMessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{6CEF46E4-6AAF-4088-9B42-059C580270FD}"/>
-							<Prp name="name" type="S" value="ProjectTestItem12"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{252C35ED-6A89-4901-82B4-7305DC7F2E92}"/>
 					<Prp name="name" type="S" value="DevEsitArt"/>
@@ -900,21 +1659,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{F0F66E07-16EC-4577-AEA1-F4ACF4ABA755}"/>
-							<Prp name="name" type="S" value="ProjectTestItem13"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{1219A5C8-3FC8-4631-B697-AB8E532869E7}"/>
 							<Prp name="name" type="S" value="ProjectTestItem16"/>
@@ -923,12 +1668,12 @@
 							<Prp name="test moniker" type="S" value="{C3FD407B-9B09-492B-97A5-448C70A93171}SetDevKeli"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0002">
+						<Node name="item idx=0001">
 							<Node name="child list"/>
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{1CE8BD52-EC65-44DD-82A6-5B7BA9483DC4}"/>
 							<Prp name="name" type="S" value="ProjectTestItem15"/>
@@ -937,25 +1682,11 @@
 							<Prp name="test moniker" type="S" value="{C3FD407B-9B09-492B-97A5-448C70A93171}SendSetDevKeliMessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{D9B4425A-C1BB-4D8E-884F-396D7352BABB}"/>
-							<Prp name="name" type="S" value="ProjectTestItem14"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{7727E7D1-0638-40DA-A8A0-ACAE0B440A12}"/>
 					<Prp name="name" type="S" value="DevKeli"/>
@@ -971,13 +1702,13 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{6882CBEE-F829-4373-9B2B-39F6481610E0}"/>
-							<Prp name="name" type="S" value="ProjectTestItem19"/>
+							<Prp name="key" type="S" value="{FB9E8DBD-E3C7-42B1-BA0C-D44A4AE93DC2}"/>
+							<Prp name="name" type="S" value="ProjectTestItem24"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
+							<Prp name="test moniker" type="S" value="{0AFB9611-C98A-4AC4-8DCB-C61DC1A1862B}SetDevXK3118"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item idx=0001">
@@ -985,51 +1716,23 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{48AF7795-60DD-441A-ADB5-5E6056B0ED64}"/>
-							<Prp name="name" type="S" value="ProjectTestItem18"/>
+							<Prp name="key" type="S" value="{A93972F5-C21A-4958-BB2D-BA39DBB9A9B2}"/>
+							<Prp name="name" type="S" value="ProjectTestItem23"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{8C03F203-AE04-4B41-9A19-FF15A3112E13}SetDevMoxo"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{D54A47B7-C2EC-40ED-8C34-0028EDD3E77F}"/>
-							<Prp name="name" type="S" value="ProjectTestItem17"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{8C03F203-AE04-4B41-9A19-FF15A3112E13}SendSetDevMoxoMessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{6285536B-6834-476D-9C91-85038BB56E88}"/>
-							<Prp name="name" type="S" value="ProjectTestItem20"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
+							<Prp name="test moniker" type="S" value="{0AFB9611-C98A-4AC4-8DCB-C61DC1A1862B}SendSetDevXK3118MessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{E21F7E5A-EE27-49AA-8F0E-46D58B370D58}"/>
-					<Prp name="name" type="S" value="DevMoxo"/>
+					<Prp name="key" type="S" value="{A97595C0-533D-47A3-BA46-7354DCD69759}"/>
+					<Prp name="name" type="S" value="DevXK3118"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
 					<Prp name="test moniker" type="S" value=""/>
@@ -1042,13 +1745,13 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{97DFB757-7091-4799-838D-49551A19DA17}"/>
-							<Prp name="name" type="S" value="ProjectTestItem21"/>
+							<Prp name="key" type="S" value="{D43D4571-9B94-4AD0-AAB7-08F83FD86FB5}"/>
+							<Prp name="name" type="S" value="ProjectTestItem26"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
+							<Prp name="test moniker" type="S" value="{A6202FC8-A29A-47E3-AC9E-3AE910EA48BE}SetDevPWI"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item idx=0001">
@@ -1056,51 +1759,23 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{FB9E8DBD-E3C7-42B1-BA0C-D44A4AE93DC2}"/>
-							<Prp name="name" type="S" value="ProjectTestItem24"/>
+							<Prp name="key" type="S" value="{1330A0AF-66FD-468C-8161-EFDD965A9741}"/>
+							<Prp name="name" type="S" value="ProjectTestItem25"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{0AFB9611-C98A-4AC4-8DCB-C61DC1A1862B}SetDevXK3118"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{A93972F5-C21A-4958-BB2D-BA39DBB9A9B2}"/>
-							<Prp name="name" type="S" value="ProjectTestItem23"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{0AFB9611-C98A-4AC4-8DCB-C61DC1A1862B}SendSetDevXK3118MessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{EA8E46BE-01B4-4EB0-9B2A-69283FF6C6E8}"/>
-							<Prp name="name" type="S" value="ProjectTestItem22"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
+							<Prp name="test moniker" type="S" value="{A6202FC8-A29A-47E3-AC9E-3AE910EA48BE}SendSetDevPWIMessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{A97595C0-533D-47A3-BA46-7354DCD69759}"/>
-					<Prp name="name" type="S" value="DevXK3118"/>
+					<Prp name="key" type="S" value="{E87507FB-7420-4F17-95FB-F5B20154E8AC}"/>
+					<Prp name="name" type="S" value="DevPWI"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
 					<Prp name="test moniker" type="S" value=""/>
@@ -1113,13 +1788,13 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{B551F9EC-F8CA-457E-84BC-B6DE7EAF82F1}"/>
-							<Prp name="name" type="S" value="ProjectTestItem27"/>
+							<Prp name="key" type="S" value="{246A9206-5E1A-40EB-A7FF-6D8011DD741B}"/>
+							<Prp name="name" type="S" value="ProjectTestItem32"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
+							<Prp name="test moniker" type="S" value="{DB8103ED-BB64-42CD-AB1E-31D9FD4EA1AC}SetDevR420"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item idx=0001">
@@ -1127,51 +1802,23 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{D43D4571-9B94-4AD0-AAB7-08F83FD86FB5}"/>
-							<Prp name="name" type="S" value="ProjectTestItem26"/>
+							<Prp name="key" type="S" value="{412680EE-4315-477C-ABD2-EA11392ED0BC}"/>
+							<Prp name="name" type="S" value="ProjectTestItem31"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{A6202FC8-A29A-47E3-AC9E-3AE910EA48BE}SetDevPWI"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{1330A0AF-66FD-468C-8161-EFDD965A9741}"/>
-							<Prp name="name" type="S" value="ProjectTestItem25"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{A6202FC8-A29A-47E3-AC9E-3AE910EA48BE}SendSetDevPWIMessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{FFDC2C30-E8A5-4C27-BB97-368BFEC3750A}"/>
-							<Prp name="name" type="S" value="ProjectTestItem28"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
+							<Prp name="test moniker" type="S" value="{DB8103ED-BB64-42CD-AB1E-31D9FD4EA1AC}SendSetDevR420MessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{E87507FB-7420-4F17-95FB-F5B20154E8AC}"/>
-					<Prp name="name" type="S" value="DevPWI"/>
+					<Prp name="key" type="S" value="{FD1F056E-CBA1-4D64-ADB1-D8130A0DE405}"/>
+					<Prp name="name" type="S" value="TestDevR420"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
 					<Prp name="test moniker" type="S" value=""/>
@@ -1184,13 +1831,13 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{042F093F-AA12-4F55-810D-619CAB148330}"/>
-							<Prp name="name" type="S" value="ProjectTestItem29"/>
+							<Prp name="key" type="S" value="{92EA7E9A-5482-444E-86DF-6EA4CFBDAE5A}"/>
+							<Prp name="name" type="S" value="ProjectTestItem36"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
+							<Prp name="test moniker" type="S" value="{0D7FF871-EE05-42FF-9D9E-2062D09E9B30}SetDevRW15"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 						<Node name="item idx=0001">
@@ -1198,51 +1845,23 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{246A9206-5E1A-40EB-A7FF-6D8011DD741B}"/>
-							<Prp name="name" type="S" value="ProjectTestItem32"/>
+							<Prp name="key" type="S" value="{4A1720D8-EBC4-48DC-89A5-6294362C373A}"/>
+							<Prp name="name" type="S" value="ProjectTestItem35"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{DB8103ED-BB64-42CD-AB1E-31D9FD4EA1AC}SetDevR420"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{412680EE-4315-477C-ABD2-EA11392ED0BC}"/>
-							<Prp name="name" type="S" value="ProjectTestItem31"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{DB8103ED-BB64-42CD-AB1E-31D9FD4EA1AC}SendSetDevR420MessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{60CE375E-6200-4546-8DD5-F0E05F879715}"/>
-							<Prp name="name" type="S" value="ProjectTestItem30"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
+							<Prp name="test moniker" type="S" value="{0D7FF871-EE05-42FF-9D9E-2062D09E9B30}SendSetDevRW15MessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{FD1F056E-CBA1-4D64-ADB1-D8130A0DE405}"/>
-					<Prp name="name" type="S" value="TestDevR420"/>
+					<Prp name="key" type="S" value="{FC18B2BC-2DBF-4114-9B1B-606877633DA1}"/>
+					<Prp name="name" type="S" value="TestDevRW15"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
 					<Prp name="test moniker" type="S" value=""/>
@@ -1255,92 +1874,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{469297F8-4D1E-4003-A059-C7CAEA448A4B}"/>
-							<Prp name="name" type="S" value="ProjectTestItem33"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{92EA7E9A-5482-444E-86DF-6EA4CFBDAE5A}"/>
-							<Prp name="name" type="S" value="ProjectTestItem36"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{0D7FF871-EE05-42FF-9D9E-2062D09E9B30}SetDevRW15"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0002">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{4A1720D8-EBC4-48DC-89A5-6294362C373A}"/>
-							<Prp name="name" type="S" value="ProjectTestItem35"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{0D7FF871-EE05-42FF-9D9E-2062D09E9B30}SendSetDevRW15MessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{33BCA8FF-B411-4F88-8838-701FB18A0938}"/>
-							<Prp name="name" type="S" value="ProjectTestItem34"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-					</Node>
-					<Node name="test parameters"/>
-					<Prp name="count" type="I" value="1"/>
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
-					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{FC18B2BC-2DBF-4114-9B1B-606877633DA1}"/>
-					<Prp name="name" type="S" value="TestDevRW15"/>
-					<Prp name="stoponerror" type="I" value="2"/>
-					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value=""/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
-				<Node name="item idx=0010">
-					<Node name="child list">
-						<Node name="item idx=0000">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{DA87BDA9-8340-4321-B69D-0FC3468CCE5A}"/>
-							<Prp name="name" type="S" value="ProjectTestItem37"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{00498BC3-15F8-4B64-8862-41996ADD4065}"/>
 							<Prp name="name" type="S" value="ProjectTestItem40"/>
@@ -1349,12 +1883,12 @@
 							<Prp name="test moniker" type="S" value="{4E07929D-30FF-4B03-B983-0FDF4D5D81F1}SetDevTVP12i"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0002">
+						<Node name="item idx=0001">
 							<Node name="child list"/>
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="enabled" type="B" value="0"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{6F1EC66D-D4E4-44EF-A429-6EC969423A53}"/>
 							<Prp name="name" type="S" value="ProjectTestItem39"/>
@@ -1363,25 +1897,11 @@
 							<Prp name="test moniker" type="S" value="{4E07929D-30FF-4B03-B983-0FDF4D5D81F1}SendSetDevTVP12iMessageToLibraMonitor"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
-						<Node name="item idx=0003">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{85D8D557-5A3A-496B-BD02-2B742AA9ED7F}"/>
-							<Prp name="name" type="S" value="ProjectTestItem38"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StopIntellect"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
 					</Node>
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="enabled" type="B" value="0"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{B8A89E70-4C31-4613-8405-6621B4DFDCDE}"/>
 					<Prp name="name" type="S" value="TestDevTVP12i"/>

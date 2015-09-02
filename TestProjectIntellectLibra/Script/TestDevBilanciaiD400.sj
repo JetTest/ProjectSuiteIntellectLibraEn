@@ -1,15 +1,13 @@
 ﻿//USEUNIT GlobalVariables
 //USEUNIT GlobalFunctions
+//USEUNIT GUIGlobalNames
 
 // Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400  
 function SetDevBilanciaiD400()
 { 
   // Local variables
   var deviceName = "Dev.Bilanciai.D400";
-  
-  // Open device tab
-  selectDeviceTab();
-  
+      
   // Set libra device
   // Select weighen module
   selectWeighenModule();
@@ -20,21 +18,15 @@ function SetDevBilanciaiD400()
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
   
   // Set addition options
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", "Дополнительно...").ClickButton();
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").
-  WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).
+  WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
   WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).
-  WPFObject("_PanelView").WPFObject("GroupBox", "Соединение", 1).
+  WPFObject("_PanelView").WPFObject("GroupBox", en_connection, 1).
   WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
   
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").
-  WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).
-  WPFObject("StackPanel", "", 1).WPFObject("Button", "ОК", 1).ClickButton();
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();      
-  
-  // Hide pop-up Intellect menu
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1897, 23);
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
+  // Press OK in Libra "Advanced" options
+  pressOkayButtonLibraAdvanced();
 }
 
  
@@ -62,30 +54,19 @@ function SendSetDevBilanciaiD400MessageToLibraMonitor()
   
   // Compare output with input values
   // Compare i/o netto value
-  var nettoMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").
-  WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).
-  WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).
-  WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).
-  WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
-  
+  var nettoMonitor = 
+  Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Grid", "", 1).WPFObject("Label", "", 2).get_Content();
+
   compareVariables(nettoMonitor, netto);
   
   // Compare i/o tara value
-  var taraMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").
-  WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).
-  WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).
-  WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).
-  WPFObject("Grid", "", 2).WPFObject("Label", "", 2).get_Content();
+  var taraMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Grid", "", 2).WPFObject("Label", "", 2).get_Content();
   
   compareVariables(taraMonitor ,tara);
   
   // Compare i/o brutto value
   
-  var bruttoMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").
-  WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).
-  WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).
-  WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).
-  WPFObject("Grid", "", 3).WPFObject("Label", "", 2).get_Content();
+  var bruttoMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Grid", "", 3).WPFObject("Label", "", 2).get_Content();
   
   compareVariables(bruttoMonitor, brutto);
 

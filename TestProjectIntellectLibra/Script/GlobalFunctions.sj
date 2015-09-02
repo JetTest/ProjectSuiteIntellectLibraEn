@@ -1,4 +1,5 @@
 ﻿//USEUNIT GlobalVariables
+//USEUNIT GUIGlobalNames
 
 function compareVariables(output, input)
 {
@@ -34,13 +35,18 @@ function checkColour(colour)
 // Open device tab
 function selectDeviceTab()
 {
+  var height = 0;
+  var width = Sys.Desktop.Width-3;
+  
   // Open device tab
   Sys.Process("explorer").Window("Progman", "Program Manager").
-  Window("SHELLDLL_DefView").Window("SysListView32", "FolderView").Click(1917, 0);    
+  Window("SHELLDLL_DefView").Window("SysListView32", "FolderView").
+  Click(width, height);
+        
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
   Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 2000);
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1901, 24);
+  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.
+  Click(en_systemSettings);
 }
 
 // Select weighen module
@@ -52,4 +58,15 @@ function selectWeighenModule()
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ExpandItem("|" + PCNAME);
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("SysTreeView32").ClickItem("|" + PCNAME + "|" + WEIGHINGMODULENAME);
 }
+
+
+// Press OK in Libra "Advanced" options
+function pressOkayButtonLibraAdvanced()
+{
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).
+  WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
+  WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();
+}      
+  
 

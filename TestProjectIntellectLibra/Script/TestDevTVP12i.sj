@@ -7,9 +7,6 @@ function SetDevTVP12i()
   // Local variables
   var deviceName = "Dev.TVP12i";
   
-  // Open device tab
-  selectDeviceTab();
-  
   // Set libra device
   // Select weighen module
   selectWeighenModule();
@@ -20,17 +17,15 @@ function SetDevTVP12i()
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
   
   // Set addition options
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", "Дополнительно...").ClickButton();
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).WPFObject("_PanelHolder").WPFObject("Panel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Соединение", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
+  WPFObject("_PanelHolder").WPFObject("Panel", "", 1).WPFObject("_PanelView").
+  WPFObject("GroupBox", en_connection, 1).WPFObject("Grid", "", 1).
+  WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
   
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Дополнительно").
-  WPFObject("MainWindow", "Дополнительно", 1).WPFObject("Grid", "", 1).
-  WPFObject("StackPanel", "", 1).WPFObject("Button", "ОК", 1).ClickButton();
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();      
+  // Press OK in Libra "Advanced" options
+  pressOkayButtonLibraAdvanced();      
   
-  // Hide pop-up Intellect menu
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(1897, 23);
-  Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.Click("Настройка системы");
 }
 
  
@@ -58,9 +53,9 @@ function SendSetDevTVP12iMessageToLibraMonitor()
       
   Port.Close();
    
-  var massMonitor = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Content();
+  var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Content();
   
-  var colour = Sys.Process("VitLibraView", 2).WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Foreground(); 
+  var colour = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "??????", 1).get_Foreground(); 
  
   colour = colour.ToString();
   

@@ -47,11 +47,38 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="guiglobalnames">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="GUIGlobalNames.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CF9662B4-B75D-421C-9AF0-C220E2E82E2D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 			<Node name="main">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="Main.sj"/>
 				</Node>
 				<Prp name="key" type="S" value="{EDB739C3-9D99-4FF2-92B1-8825DA7DCD6B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="showhideallwindows">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ShowHideAllWindows.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1324E333-A76B-4A94-84AD-9948CBC7D9E5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="showhideintellectpopupmenu">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ShowHideIntellectPopUpMenu.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{18386255-F2D2-4689-836E-12A6A7924807}"/>
 				<Prp name="pluginname" type="S" value="Script"/>
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
@@ -162,6 +189,7 @@
 				<Node name="references">
 					<Prp name="{0ec77a1f-88d7-497c-9e09-db3749a56790}" type="S" value=""/>
 					<Prp name="{ba3a21e0-1099-4fdd-b3a7-339b5135e440}" type="S" value=""/>
+					<Prp name="{cf9662b4-b75d-421c-9af0-c220e2e82e2d}" type="S" value=""/>
 				</Node>
 				<Prp name="caption" type="S" value="Global"/>
 				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
