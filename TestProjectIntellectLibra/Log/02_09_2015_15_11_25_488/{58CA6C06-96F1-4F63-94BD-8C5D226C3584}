@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="19"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="2"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="start date" type="D" value="42249.6329352546"/>
+			<Prp name="test" type="S" value="TestProjectIntellectLibra"/>
+			<Prp name="user" type="S" value="admin"/>
+			<Prp name="host" type="S" value="WIN7-100-156"/>
+			<Prp name="log status" type="I" value="0"/>
+			<Prp name="stop date" type="D" value="42249.6334334259"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="ProjectTestItem2"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="42249.633020625"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{764AF5E9-8409-4C4F-AEE2-B5B6B524BFF7}"/>
+				<Prp name="end time" type="D" value="42249.6334334259"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="ProjectTestItem41"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="42249.6329352546"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{0A1A5D81-C1D5-46C7-90EE-601D4B7D14FC}"/>
+				<Prp name="end time" type="D" value="42249.6330204398"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

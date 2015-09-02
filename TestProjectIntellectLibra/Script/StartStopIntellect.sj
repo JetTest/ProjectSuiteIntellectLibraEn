@@ -16,7 +16,7 @@ function StartIntellect()
     
     TestedApps.intellect.Run();
     
-    process2 = Sys.WaitProcess("intellect", 9000);
+    process2 = Sys.WaitProcess("intellect", 15000);
     
     if (process2.Exists)  
     {

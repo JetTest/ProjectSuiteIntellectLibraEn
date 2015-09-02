@@ -35,7 +35,7 @@ function checkColour(colour)
 // Open device tab
 function selectDeviceTab()
 {
-   var height = 0;
+  var height = 0;
   var width = Sys.Desktop.Width-3;
   
   // Open device tab

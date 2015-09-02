@@ -44,7 +44,7 @@ function selectDeviceTab()
   Click(width, height);
         
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
-  Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 2000);
+  Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 30000);
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.
   Click(en_systemSettings);
 }
