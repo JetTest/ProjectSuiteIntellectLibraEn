@@ -23,65 +23,47 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7189005208"/>
+				<Prp name="datetime" type="D" value="42250.6150628472"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9CAC1879-C5AF-453F-86C8-0A1B5DFE0945}"/>
+				<Prp name="key" type="S" value="{6D2D2A7D-A0E9-4DE7-AED8-DBFB227865AE}"/>
 				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="02_09_2015_17_15_13_4\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="03_09_2015_14_45_41_429\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7199220833"/>
+				<Prp name="datetime" type="D" value="42250.6266850579"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{0D726A0D-DF20-4613-BC82-970CFB7F941F}"/>
+				<Prp name="key" type="S" value="{0BED8B82-F8E0-4365-BA01-21C28F6BC7CA}"/>
 				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
-				<Prp name="relpath" type="S" value="02_09_2015_17_16_41_267\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="03_09_2015_15_02_25_588\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7398537616"/>
+				<Prp name="datetime" type="D" value="42250.6281917593"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A88F371E-F5FB-4F94-97F5-93310DDDB2CE}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [buff\Test1]"/>
-				<Prp name="relpath" type="S" value="02_09_2015_17_45_23_365\Description.tcLog"/>
+				<Prp name="key" type="S" value="{D80FED00-0390-4F12-87FB-E1AD54CB8632}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_09_2015_15_04_35_768\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7418463773"/>
+				<Prp name="datetime" type="D" value="42250.6300141551"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5AC2E7C9-1A95-47B7-AB6A-E4D42F42EEB1}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SetDevBilanciaiD400]"/>
-				<Prp name="relpath" type="S" value="02_09_2015_17_48_15_527\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{59891230-4A39-4A5F-AED2-1B5FAE2E6C8B}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_09_2015_15_07_13_223\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7433340509"/>
+				<Prp name="datetime" type="D" value="42250.6321069792"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{1670481F-449A-4713-BB8E-7C0AD6163829}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SetDevBilanciaiD400]"/>
-				<Prp name="relpath" type="S" value="02_09_2015_17_50_24_62\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0005">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.750055162"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{244DFB19-AAF5-45AC-81E0-B126E9265207}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SetDevEsitART]"/>
-				<Prp name="relpath" type="S" value="02_09_2015_18_00_04_765\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0006">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42249.7532756019"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{42BE80FA-FD2C-408D-96BA-F0E464FB3175}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEsitART\SetDevEsitART]"/>
-				<Prp name="relpath" type="S" value="02_09_2015_18_04_43_12\Description.tcLog"/>
+				<Prp name="key" type="S" value="{2D5D1E01-CBA3-4BC6-8CB9-B86BDB5C2C14}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="03_09_2015_15_10_14_43\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

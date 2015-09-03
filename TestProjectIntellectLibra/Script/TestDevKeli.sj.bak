@@ -7,9 +7,6 @@ function SetDevKeli()
   // Local variables
   var deviceName = "Dev.Keli";
   
-  // Open device tab
-  selectDeviceTab();
-  
   // Set libra device
   // Select weighen module
   selectWeighenModule();

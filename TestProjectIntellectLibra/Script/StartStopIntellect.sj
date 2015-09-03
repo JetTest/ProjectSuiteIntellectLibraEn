@@ -14,7 +14,12 @@ function StartIntellect()
   {
     Log.Message("The process " + TestedApps.intellect.FileName + " does not exist.");
     
+    //Run Intellect code
+    
     TestedApps.intellect.Run();
+        
+    
+
     
     process2 = Sys.WaitProcess("intellect", 15000);
     

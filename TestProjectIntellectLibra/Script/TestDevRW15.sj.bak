@@ -7,9 +7,6 @@ function SetDevRW15()
   // Local variables
   var deviceName = "Dev.RW15";
   
-  // Open device tab
-  selectDeviceTab();
-  
   // Set libra device
   // Select weighen module
   selectWeighenModule();

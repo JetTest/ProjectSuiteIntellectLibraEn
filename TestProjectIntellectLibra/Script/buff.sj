@@ -46,3 +46,10 @@ function Test3()
   grid.WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem("COM10");
   grid.WPFObject("StackPanel", "", 1).WPFObject("Button", "OK", 1).ClickButton();
 }
+
+function Test4()
+{
+  //TestedApps.RunIntellect.Run(1, true);
+  Sys.OleObject("WScript.Shell").Exec("cmd /c \"\"C:\Program Files (x86)\Intellect\intellect.vbs\" username=admin ");
+  
+}

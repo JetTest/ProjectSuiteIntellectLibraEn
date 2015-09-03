@@ -52,7 +52,7 @@ function SendSetDevEsitARTMessageToLibraMonitor()
   Port.Close();
   
   // Check the color of output value on monitor  
-  var colour = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "????", 1).get_Foreground();
+  var colour = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("SimpleDriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "????", 1).get_Foreground();
   colour = colour.ToString();
   
   checkColour(colour);  
@@ -60,11 +60,7 @@ function SendSetDevEsitARTMessageToLibraMonitor()
   // Compare output with input values
   
   // Compare i/o netto value  
-  var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").
-  WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).
-  WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).
-  WPFObject("_root").WPFObject("Border", "", 1).
-  WPFObject("Label", "??????", 1).get_Content()
+  var massMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("SimpleDriverView", "", 1).WPFObject("_root").WPFObject("Border", "", 1).WPFObject("Label", "????", 1).get_Content()
     
   compareVariables(massMonitor, mass);
   

@@ -1530,20 +1530,6 @@
 					<Prp name="description" type="S" value=""/>
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="0"/>
-					<Prp name="key" type="S" value="{1A3F343D-4CF1-4F34-9721-63F6C9C14FA5}"/>
-					<Prp name="name" type="S" value="ProjectTestItem41"/>
-					<Prp name="stoponerror" type="I" value="2"/>
-					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value="{5EC384BD-EBB0-48DF-ACE4-2B156240331A}StartIntellect"/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
-				<Node name="item idx=0001">
-					<Node name="child list"/>
-					<Node name="test parameters"/>
-					<Prp name="count" type="I" value="1"/>
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
-					<Prp name="group" type="B" value="0"/>
 					<Prp name="key" type="S" value="{4F825E85-F6A8-4264-9B42-BA0303B4F75F}"/>
 					<Prp name="name" type="S" value="ProjectTestItem2"/>
 					<Prp name="stoponerror" type="I" value="2"/>
@@ -1551,7 +1537,7 @@
 					<Prp name="test moniker" type="S" value="{18386255-F2D2-4689-836E-12A6A7924807}showIntellectPopUPMenu"/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0002">
+				<Node name="item idx=0001">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1560,11 +1546,25 @@
 							<Prp name="description" type="S" value=""/>
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{A9EBB9A2-2D42-4380-BBF6-E383E51ACD6A}"/>
+							<Prp name="key" type="S" value="{72DD6D63-4673-475F-882B-CD63ECDE070F}"/>
+							<Prp name="name" type="S" value="ProjectTestItem3"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}SetDevBilanciaiD400Gross"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item idx=0001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{C30EBBEC-7F08-41A9-8D0D-B5CD81E98164}"/>
 							<Prp name="name" type="S" value="ProjectTestItem4"/>
 							<Prp name="stoponerror" type="I" value="2"/>
 							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}SetDevBilanciaiD400"/>
+							<Prp name="test moniker" type="S" value="{10C26D46-73CC-431F-A6E7-26918B93DDD1}SetDevBilanciaiD400Net"/>
 							<Prp name="timeout" type="I" value="0"/>
 						</Node>
 					</Node>
@@ -1580,7 +1580,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0003">
+				<Node name="item idx=0002">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1623,7 +1623,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0004">
+				<Node name="item idx=0003">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1666,7 +1666,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0005">
+				<Node name="item idx=0004">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1709,7 +1709,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0006">
+				<Node name="item idx=0005">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1752,7 +1752,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0007">
+				<Node name="item idx=0006">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1795,7 +1795,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0008">
+				<Node name="item idx=0007">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -1838,7 +1838,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0009">
+				<Node name="item idx=0008">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>

@@ -39,3 +39,17 @@ function Test2()
   grid.WPFObject("StackPanel", "", 1).WPFObject("Button", "OK", 1).ClickButton();
 }
 
+function Test3()
+{
+  var grid;
+  grid = Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1);
+  grid.WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem("COM10");
+  grid.WPFObject("StackPanel", "", 1).WPFObject("Button", "OK", 1).ClickButton();
+}
+
+function Test4()
+{
+  //TestedApps.RunIntellect.Run(1, true);
+  Sys.OleObject("WScript.Shell").Exec("cmd /c \"\"C:\intellect.txt\" username=admin ");
+  
+}
