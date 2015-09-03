@@ -1587,7 +1587,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{C92637BF-BE5C-469D-8AA1-82421F369981}"/>
 							<Prp name="name" type="S" value="ProjectTestItem10"/>
@@ -1601,7 +1601,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{AD37D018-8B78-4262-A385-62B8D6AD8410}"/>
 							<Prp name="name" type="S" value="ProjectTestItem9"/>
@@ -1614,7 +1614,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{252C35ED-6A89-4901-82B4-7305DC7F2E92}"/>
 					<Prp name="name" type="S" value="DevEsitArt"/>
@@ -1630,7 +1630,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{1219A5C8-3FC8-4631-B697-AB8E532869E7}"/>
 							<Prp name="name" type="S" value="ProjectTestItem16"/>
@@ -1644,7 +1644,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{1CE8BD52-EC65-44DD-82A6-5B7BA9483DC4}"/>
 							<Prp name="name" type="S" value="ProjectTestItem15"/>
@@ -1657,7 +1657,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{7727E7D1-0638-40DA-A8A0-ACAE0B440A12}"/>
 					<Prp name="name" type="S" value="DevKeli"/>
@@ -1673,7 +1673,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{FB9E8DBD-E3C7-42B1-BA0C-D44A4AE93DC2}"/>
 							<Prp name="name" type="S" value="ProjectTestItem24"/>
@@ -1687,7 +1687,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{A93972F5-C21A-4958-BB2D-BA39DBB9A9B2}"/>
 							<Prp name="name" type="S" value="ProjectTestItem23"/>
@@ -1700,7 +1700,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{A97595C0-533D-47A3-BA46-7354DCD69759}"/>
 					<Prp name="name" type="S" value="DevXK3118"/>
@@ -1716,7 +1716,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{D43D4571-9B94-4AD0-AAB7-08F83FD86FB5}"/>
 							<Prp name="name" type="S" value="ProjectTestItem26"/>
@@ -1730,7 +1730,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{1330A0AF-66FD-468C-8161-EFDD965A9741}"/>
 							<Prp name="name" type="S" value="ProjectTestItem25"/>
@@ -1743,7 +1743,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{E87507FB-7420-4F17-95FB-F5B20154E8AC}"/>
 					<Prp name="name" type="S" value="DevPWI"/>
@@ -1759,7 +1759,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{246A9206-5E1A-40EB-A7FF-6D8011DD741B}"/>
 							<Prp name="name" type="S" value="ProjectTestItem32"/>
@@ -1773,7 +1773,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{412680EE-4315-477C-ABD2-EA11392ED0BC}"/>
 							<Prp name="name" type="S" value="ProjectTestItem31"/>
@@ -1786,7 +1786,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{FD1F056E-CBA1-4D64-ADB1-D8130A0DE405}"/>
 					<Prp name="name" type="S" value="TestDevR420"/>
@@ -1802,7 +1802,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{92EA7E9A-5482-444E-86DF-6EA4CFBDAE5A}"/>
 							<Prp name="name" type="S" value="ProjectTestItem36"/>
@@ -1816,7 +1816,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{4A1720D8-EBC4-48DC-89A5-6294362C373A}"/>
 							<Prp name="name" type="S" value="ProjectTestItem35"/>
@@ -1829,7 +1829,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{FC18B2BC-2DBF-4114-9B1B-606877633DA1}"/>
 					<Prp name="name" type="S" value="TestDevRW15"/>
@@ -1845,7 +1845,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{00498BC3-15F8-4B64-8862-41996ADD4065}"/>
 							<Prp name="name" type="S" value="ProjectTestItem40"/>
@@ -1859,7 +1859,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{6F1EC66D-D4E4-44EF-A429-6EC969423A53}"/>
 							<Prp name="name" type="S" value="ProjectTestItem39"/>
@@ -1872,7 +1872,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{B8A89E70-4C31-4613-8405-6621B4DFDCDE}"/>
 					<Prp name="name" type="S" value="TestDevTVP12i"/>
@@ -1888,7 +1888,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{95AC1726-60D3-4FD0-AA6E-CF4B06F6F484}"/>
 							<Prp name="name" type="S" value="ProjectTestItem5"/>
@@ -1902,7 +1902,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{F6904E39-4CA4-44FA-B932-904150522BE3}"/>
 							<Prp name="name" type="S" value="ProjectTestItem1"/>
@@ -1915,7 +1915,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{846EA344-9D6D-470D-8B3D-19947D2B6B50}"/>
 					<Prp name="name" type="S" value="TestDevXK3118"/>
@@ -1931,7 +1931,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{9501035D-F5C0-4B54-976D-B7141A600868}"/>
 							<Prp name="name" type="S" value="ProjectTestItem7"/>
@@ -1945,7 +1945,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{F09954C0-5157-456E-8E06-9F900AF33108}"/>
 							<Prp name="name" type="S" value="ProjectTestItem6"/>
@@ -1958,7 +1958,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{D213A3DA-C94C-4423-BFAE-941289FD4E76}"/>
 					<Prp name="name" type="S" value="TestDevTVP25"/>
@@ -1974,7 +1974,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{E7BCD4B4-87BF-4322-95F3-54E21EF5EBF6}"/>
 							<Prp name="name" type="S" value="ProjectTestItem11"/>
@@ -1988,7 +1988,7 @@
 							<Node name="test parameters"/>
 							<Prp name="count" type="I" value="1"/>
 							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="0"/>
+							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{2BA35DA6-BBA6-4073-B102-F56C1CF376DC}"/>
 							<Prp name="name" type="S" value="ProjectTestItem8"/>
@@ -2001,7 +2001,7 @@
 					<Node name="test parameters"/>
 					<Prp name="count" type="I" value="1"/>
 					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="0"/>
+					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{6E3E9151-71D4-4D90-BDE3-CDEB3FACC624}"/>
 					<Prp name="name" type="S" value="TestDevEverest"/>

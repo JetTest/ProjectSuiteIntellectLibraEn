@@ -26,7 +26,7 @@ function SetDevBilanciaiD400()
   // Press OK and Appy in Libra en_advanced options
   pressOkayButtonLibraAdvanced();
   
-  SendSetDevBilanciaiD400MessageToLibraMonitor();    
+    
 }
 
 //// Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400 with Net radiobutton  

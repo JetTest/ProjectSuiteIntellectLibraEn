@@ -255,6 +255,15 @@
 				<Prp name="relpath" type="S" value="03_09_2015_18_08_28_147\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42250.7740497106"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{484FC7B6-DE34-4B6B-BDD3-AF75C3B119CD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevBilanciaiD400\SendSetDevBilanciaiD400MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="03_09_2015_18_34_37_895\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
