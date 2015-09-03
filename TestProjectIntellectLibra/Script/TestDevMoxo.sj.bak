@@ -7,9 +7,6 @@ function SetDevMoxo()
   // Local variables
   var deviceName = "Dev.Moxo";
   
-  // Open device tab
-  selectDeviceTab();
-  
   // Set libra device
   // Select weighen module
   selectWeighenModule();

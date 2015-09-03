@@ -53,3 +53,9 @@ function Test4()
   Sys.OleObject("WScript.Shell").Exec("cmd /c \"\"C:\Program Files (x86)\Intellect\intellect.vbs\" username=admin ");
   
 }
+
+function Test5()
+{
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1).WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem("COM10");
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Button", "OK", 1).ClickButton();
+}

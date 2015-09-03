@@ -119,6 +119,15 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="testdeveverest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestDevEverest.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{9B175E4A-E060-4127-951C-417CD0B38E8E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 			<Node name="testdevkeli">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="TestDevKeli.sj"/>
@@ -173,6 +182,15 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="testdevtvp25">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestDevTVP25.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{A8A23A9B-AFF5-4484-8549-98F6F3240B9B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 			<Node name="testdevxk3118">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="TestDevXK3118.sj"/>
@@ -205,7 +223,9 @@
 					<Prp name="{4e07929d-30ff-4b03-b983-0fdf4d5d81f1}" type="S" value=""/>
 					<Prp name="{8c03f203-ae04-4b41-9a19-ff15a3112e13}" type="S" value=""/>
 					<Prp name="{9a842ed1-b604-4569-90cf-605235ee8d98}" type="S" value=""/>
+					<Prp name="{9b175e4a-e060-4127-951c-417cd0b38e8e}" type="S" value=""/>
 					<Prp name="{a6202fc8-a29a-47e3-ac9e-3ae910ea48be}" type="S" value=""/>
+					<Prp name="{a8a23a9b-aff5-4484-8549-98f6f3240b9b}" type="S" value=""/>
 					<Prp name="{c3fd407b-9b09-492b-97a5-448c70a93171}" type="S" value=""/>
 					<Prp name="{db8103ed-bb64-42cd-ab1e-31d9fd4ea1ac}" type="S" value=""/>
 				</Node>

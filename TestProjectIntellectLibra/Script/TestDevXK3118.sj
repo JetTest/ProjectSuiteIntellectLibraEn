@@ -57,7 +57,9 @@ function SendSetDevXK3118MessageToLibraMonitor()
   
   checkColour(colour);  
   
+  massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
+  
   
   compareVariables(massMonitor ,mass);
 }

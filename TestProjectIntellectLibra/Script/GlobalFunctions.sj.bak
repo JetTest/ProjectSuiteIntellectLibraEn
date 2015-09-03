@@ -28,7 +28,7 @@ function checkColour(colour)
   else
   {
     colour = "colour";
-    Log.Error(colour + "is not correect");
+    Log.Error(colour + " is not correect");
   }
 }
 
@@ -44,7 +44,7 @@ function selectDeviceTab()
   Click(width, height);
         
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").Click(244, 14);
-  Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 2000);
+  Sys.Process("intellect").WaitWindow("AfxFrameOrView100", "CORE", -1, 30000);
   Sys.Process("intellect").Window("AfxFrameOrView100", "CORE").PopupMenu.
   Click(en_systemSettings);
 }
@@ -63,9 +63,12 @@ function selectWeighenModule()
 // Press OK in Libra "Advanced" options
 function pressOkayButtonLibraAdvanced()
 {
+  // Press OK button
   Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).
   WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
   WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
+  
+  // Press Apply button
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();
 }      
   

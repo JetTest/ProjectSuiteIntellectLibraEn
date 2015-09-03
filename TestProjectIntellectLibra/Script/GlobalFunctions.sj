@@ -28,7 +28,7 @@ function checkColour(colour)
   else
   {
     colour = "colour";
-    Log.Error(colour + "is not correect");
+    Log.Error(colour + " is not correect");
   }
 }
 
@@ -63,9 +63,10 @@ function selectWeighenModule()
 // Press OK in Libra "Advanced" options
 function pressOkayButtonLibraAdvanced()
 {
-  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).
-  WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).
-  WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
+  // Press OK button
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
+  
+  // Press Apply button
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();
 }      
   

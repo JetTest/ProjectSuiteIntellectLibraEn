@@ -50,6 +50,6 @@ function Test3()
 function Test4()
 {
   //TestedApps.RunIntellect.Run(1, true);
-  Sys.OleObject("WScript.Shell").Exec("cmd /c \"\"C:\intellect.txt\" username=admin ");
+  Sys.OleObject("WScript.Shell").Exec("cmd /c \"\"C:\Program Files (x86)\Intellect\intellect.vbs\" username=admin ");
   
 }

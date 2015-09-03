@@ -2,8 +2,8 @@
 //USEUNIT GlobalFunctions
 //USEUNIT GUIGlobalNames
 
-// Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400 with Gross radiobutton  
-function SetDevBilanciaiD400Gross()
+// Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400  
+function SetDevBilanciaiD400()
 { 
   // Local variables
   var deviceName = "Dev.Bilanciai.D400";
@@ -19,56 +19,52 @@ function SetDevBilanciaiD400Gross()
   
   // Set addition options
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
-  var grid;
-  var grid2;
-  grid = Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1);
-  grid2 = grid.WPFObject("_PanelHolder").WPFObject("PanelView", "", 1).WPFObject("_PanelView");
-  grid2.WPFObject("GroupBox", en_connection, 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
-  grid2.WPFObject("GroupBox", "Total weight", 2).WPFObject("Grid", "", 1).WPFObject("RadioButton", "Gross", 1).ClickButton();
-  //grid.WPFObject("StackPanel", "", 1).WPFObject("Button", "OK", 1).ClickButton();
   
-  // Press OK in Libra en_advanced options
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1).WPFObject("_PanelHolder").WPFObject("ComPortOnlyPanel", "", 1).WPFObject("_PanelView").WPFObject("GroupBox", "Connection", 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+  Sys.Process("intellect").WPFObject("HwndSource: MainWindow", "Advanced").WPFObject("MainWindow", "Advanced", 1).WPFObject("Grid", "", 1).WPFObject("StackPanel", "", 1).WPFObject("Button", en_Ok, 1).ClickButton();
+  
+  // Press OK and Appy in Libra en_advanced options
   pressOkayButtonLibraAdvanced();
   
   SendSetDevBilanciaiD400MessageToLibraMonitor();    
 }
 
-// Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400 with Net radiobutton  
-function SetDevBilanciaiD400Net()
-{ 
-  // Local variables
-  var deviceName = "Dev.Bilanciai.D400";
-      
-  // Set libra device
-  // Select weighen module
-  selectWeighenModule();
-  
-  // Local variables
-  var deviceName = "Dev.Bilanciai.D400";
-      
-  // Set libra device
-  // Select weighen module
-  selectWeighenModule();
-  
-  // Choose device and make sets
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 1).ClickItem(deviceName);
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 2).ClickItem("Com");
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
-  
-  // Set addition options
-  var grid;
-  var grid2;  
-  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
-  grid = Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1);
-  grid2 = grid.WPFObject("_PanelHolder").WPFObject("PanelView", "", 1).WPFObject("_PanelView");
-  grid2.WPFObject("GroupBox", en_connection, 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
-  grid2.WPFObject("GroupBox", "Total weight", 2).WPFObject("Grid", "", 1).WPFObject("RadioButton", "Net", 2).ClickButton();
-  
-  // Press OK in Libra en_advanced options
-  pressOkayButtonLibraAdvanced();
-  
-  SendSetDevBilanciaiD400MessageToLibraMonitor();
-}
+//// Open pop-up Intellect menu, go to equipment tab, setup Dev.Bilanciai.D400 with Net radiobutton  
+//function SetDevBilanciaiD400Net()
+//{ 
+//  // Local variables
+//  var deviceName = "Dev.Bilanciai.D400";
+//      
+//  // Set libra device
+//  // Select weighen module
+//  selectWeighenModule();
+//  
+//  // Local variables
+//  var deviceName = "Dev.Bilanciai.D400";
+//      
+//  // Set libra device
+//  // Select weighen module
+//  selectWeighenModule();
+//  
+//  // Choose device and make sets
+//  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 1).ClickItem(deviceName);
+//  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 2).ClickItem("Com");
+//  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("ComboBox", "", 3).ClickItem("1.1");
+//  
+//  // Set addition options
+//  var grid;
+//  var grid2;  
+//  Sys.Process("intellect").Window("Afx:*", "Navigator").Window("#32770").Window("#32770", "", 2).Window("Button", en_advanced + "...").ClickButton();
+//  grid = Sys.Process("intellect").WPFObject("HwndSource: MainWindow", en_advanced).WPFObject("MainWindow", en_advanced, 1).WPFObject("Grid", "", 1);
+//  grid2 = grid.WPFObject("_PanelHolder").WPFObject("PanelView", "", 1).WPFObject("_PanelView");
+//  grid2.WPFObject("GroupBox", en_connection, 1).WPFObject("Grid", "", 1).WPFObject("ComboBox", "", 1).ClickItem(COMPORT_FOR_LIBRA_CONNECTION);
+//  //grid2.WPFObject("GroupBox", "Total weight", 2).WPFObject("Grid", "", 1).WPFObject("RadioButton", "Net", 2).ClickButton();
+//  
+//  // Press OK in Libra en_advanced options
+//  pressOkayButtonLibraAdvanced();
+//  
+//  SendSetDevBilanciaiD400MessageToLibraMonitor();
+//}
  
 
 function SendSetDevBilanciaiD400MessageToLibraMonitor()

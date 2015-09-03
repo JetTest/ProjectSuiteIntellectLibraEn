@@ -58,7 +58,9 @@ function SendSetDevTVP12iMessageToLibraMonitor()
   
   checkColour(colour);
   
-  mass = aqConvert.StrToInt(massMonitor);
+  massMonitor = aqConvert.StrToInt(massMonitor);
+  mass = aqConvert.StrToInt(mass);
+  
   
   compareVariables(massMonitor, mass);
 }
