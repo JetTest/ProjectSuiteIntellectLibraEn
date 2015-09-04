@@ -48,6 +48,42 @@
 				<Prp name="relpath" type="S" value="04_09_2015_15_05_06_84\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6335359491"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C0B8A155-F67D-4519-90B0-EB86CB23DB04}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_15_12_17_506\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6347077778"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{56949B01-0575-44CC-BB87-0B4F24440518}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_15_13_58_751\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6357242014"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DDE5D865-96BB-4DEA-AC81-A179BA6FFF1F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_15_15_26_570\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6371755093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{92555CDC-DD8C-469B-BB7D-62EAC225C835}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV3\SendSetDevUV3MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_15_17_31_964\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

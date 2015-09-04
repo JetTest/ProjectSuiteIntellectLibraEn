@@ -82,7 +82,7 @@ function SendSetDevUV3MessageToLibraMonitor()
   var textBoxMonitor7 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 7).get_Text();
   var textBoxMonitor8 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 8).get_Text(); 
  
-  //Convert to integer type 
+  // Convert to integer type 
   currentWeightMonitor = aqConvert.StrToInt(currentWeightMonitor);
   totalWeightMonitor = aqConvert.StrToInt(totalWeightMonitor);
   textBoxMonitor1 = aqConvert.StrToInt(textBoxMonitor1);

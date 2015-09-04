@@ -38,7 +38,7 @@ function SendSetDevUV2MessageToLibraMonitor()
   var message = "";
   
   // Initialize input variables
-  var currentWeight= "";
+  var currentWeight= "0";
   
   var totalWeight = "";
   
@@ -69,7 +69,7 @@ function SendSetDevUV2MessageToLibraMonitor()
  
   
   // Initialize weighing monitor output variables  
-  var currentWeightMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 9).get_Text();
+  var currentWeightMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 9).get_Text(); 
   
   var totalWeightMonitor = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 10).get_Text();
   

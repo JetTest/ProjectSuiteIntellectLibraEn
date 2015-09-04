@@ -83,17 +83,17 @@ function SendSetDevUV3MessageToLibraMonitor()
   var textBoxMonitor8 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 8).get_Text(); 
  
   // Convert to integer type 
-  currentWeightMonitor = aqConvert.StrToInt(currentWeightMonitor);
-  totalWeightMonitor = aqConvert.StrToInt(totalWeightMonitor);
-  textBoxMonitor1 = aqConvert.StrToInt(textBoxMonitor1);
-  textBoxMonitor2 = aqConvert.StrToInt(textBoxMonitor2);
-  textBoxMonitor3 = aqConvert.StrToInt(textBoxMonitor3);
-  textBoxMonitor4 = aqConvert.StrToInt(textBoxMonitor4);
-  textBoxMonitor5 = aqConvert.StrToInt(textBoxMonitor5);
-  textBoxMonitor6 = aqConvert.StrToInt(textBoxMonitor6);
-  textBoxMonitor7 = aqConvert.StrToInt(textBoxMonitor7);
-  textBoxMonitor8 = aqConvert.StrToInt(textBoxMonitor8);
-  
+//  currentWeightMonitor = aqConvert.StrToInt(currentWeightMonitor);
+//  totalWeightMonitor = aqConvert.StrToInt(totalWeightMonitor);
+//  textBoxMonitor1 = aqConvert.StrToInt(textBoxMonitor1);
+//  textBoxMonitor2 = aqConvert.StrToInt(textBoxMonitor2);
+//  textBoxMonitor3 = aqConvert.StrToInt(textBoxMonitor3);
+//  textBoxMonitor4 = aqConvert.StrToInt(textBoxMonitor4);
+//  textBoxMonitor5 = aqConvert.StrToInt(textBoxMonitor5);
+//  textBoxMonitor6 = aqConvert.StrToInt(textBoxMonitor6);
+//  textBoxMonitor7 = aqConvert.StrToInt(textBoxMonitor7);
+//  textBoxMonitor8 = aqConvert.StrToInt(textBoxMonitor8);
+
   // Compare input with output variables compareVariables([var output][var input])
   compareVariables(currentWeightMonitor ,currentWeight);
   compareVariables(totalWeightMonitor , totalWeight);
