@@ -2010,6 +2010,92 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
+				<Node name="item idx=0012">
+					<Node name="child list">
+						<Node name="item idx=0000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{E78A31E8-7D27-4DD8-87C3-58CE7EE1101E}"/>
+							<Prp name="name" type="S" value="ProjectTestItem13"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{2F510B56-D270-4D26-B54D-53CFC03E1477}SetDevUV2"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item idx=0001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{53577341-EBE0-4B65-964E-4A755DAECACB}"/>
+							<Prp name="name" type="S" value="ProjectTestItem12"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{2F510B56-D270-4D26-B54D-53CFC03E1477}SendSetDevUV2MessageToLibraMonitor"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{1AC5DB6D-B00B-4080-AAC1-814C6DAF8D3D}"/>
+					<Prp name="name" type="S" value="TestDevUV2"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0013">
+					<Node name="child list">
+						<Node name="item idx=0000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{0FF60F1F-C774-4572-BBD3-8F794F6614CF}"/>
+							<Prp name="name" type="S" value="ProjectTestItem17"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{8718775B-5A7A-454A-9F6C-B654B72DBA01}SetDevUV3"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item idx=0001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{CF5A74AB-632E-4DDC-8E36-8B81B6DB80E4}"/>
+							<Prp name="name" type="S" value="ProjectTestItem14"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{8718775B-5A7A-454A-9F6C-B654B72DBA01}SendSetDevUV3MessageToLibraMonitor"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{A25AFDF7-4049-4D7E-A915-E356E4A41165}"/>
+					<Prp name="name" type="S" value="TestDevUV3"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
 			</Node>
 			<Prp name="key" type="S" value="{2954E93D-17FC-4D75-B17B-F693886A822D}"/>
 		</Node>
