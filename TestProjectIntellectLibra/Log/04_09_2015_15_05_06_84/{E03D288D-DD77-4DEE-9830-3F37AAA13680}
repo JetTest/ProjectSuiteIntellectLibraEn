@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42251.628601713"/>
+			</Node>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="columnindex" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="408"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="datetime" type="D" value="42251.5036004398"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="96"/>
+					<Prp name="object right" type="I" value="1296"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="431"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1263"/>
+					<Prp name="object left" type="I" value="1230"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;Button&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="419"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;Button&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="96"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="date" type="D" value="42251.628601713"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="datetime" type="D" value="42251.5035566782"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="78"/>
+					<Prp name="object right" type="I" value="1220"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="438"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="79"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="29"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The tree node 'Win7-100-156' was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42251.6285611921"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="datetime" type="D" value="42251.5035714931"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object right" type="I" value="1439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="268"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="1320"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The combo box item 'Dev.UV2' was selected."/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="42251.6285743866"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{BA3A21E0-1099-4FDD-B3A7-339B5135E440}"/>
+			<Prp name="unit 1" type="S" value="{2F510B56-D270-4D26-B54D-53CFC03E1477}"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="datetime" type="D" value="42251.5035831944"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object right" type="I" value="1439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="320"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="1320"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 3)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 3)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The combo box item '1.1' was selected."/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="42251.6285864352"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="The tree node 'Win7-100-156' is already expanded."/>
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42251.6285642014"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="datetime" type="D" value="42251.5035511227"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="77"/>
+					<Prp name="object right" type="I" value="1220"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="438"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="79"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="29"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The tree node 'Win7-100-156' was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42251.6285543634"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="datetime" type="D" value="42251.5035651273"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="80"/>
+					<Prp name="object right" type="I" value="1220"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="438"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="74"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="47"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;SysTreeView32&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The tree node 'Win7-100-156|1111' was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="42251.6285674421"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="273"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="datetime" type="D" value="42251.503577662"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object right" type="I" value="1439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="294"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="1320"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 2)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;ComboBox&quot;, &quot;&quot;, 2)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The combo box item 'COM' was selected."/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="42251.6285804167"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="335"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="datetime" type="D" value="42251.5035873611"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object right" type="I" value="1447"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="361"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1394"/>
+					<Prp name="object left" type="I" value="1342"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;Advanced...&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="348"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).Window(&quot;Afx:01100000:b&quot;, &quot;Navigator&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;Advanced...&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="42251.6285885185"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="207"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="datetime" type="D" value="42251.503598588"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="88"/>
+					<Prp name="object right" type="I" value="176"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="232"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="143"/>
+					<Prp name="object left" type="I" value="110"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;OK&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="219"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;OK&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="88"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="42251.6285996296"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="46"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="datetime" type="D" value="42251.5035963889"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object right" type="I" value="235"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="73"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="149"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;intellect&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;).WPFObject(&quot;GroupBox&quot;, &quot;Connection&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Process(&quot;intellect&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Advanced&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Advanced&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelHolder&quot;).WPFObject(&quot;ComPortOnlyPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;_PanelView&quot;).WPFObject(&quot;GroupBox&quot;, &quot;Connection&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;ComboBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The combo box item 'COM10' was selected."/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="42251.628597662"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

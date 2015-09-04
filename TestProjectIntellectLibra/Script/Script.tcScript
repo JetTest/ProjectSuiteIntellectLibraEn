@@ -191,6 +191,24 @@
 				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
 				<Prp name="typename" type="S" value="Script Unit"/>
 			</Node>
+			<Node name="testdevuv2">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestDevUV2.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{2F510B56-D270-4D26-B54D-53CFC03E1477}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testdevuv3">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestDevUV3.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{8718775B-5A7A-454A-9F6C-B654B72DBA01}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
 			<Node name="testdevxk3118">
 				<Node name="item data">
 					<Prp name="relpath" type="S" value="TestDevXK3118.sj"/>
@@ -220,7 +238,9 @@
 					<Prp name="{0d7ff871-ee05-42ff-9d9e-2062d09e9b30}" type="S" value=""/>
 					<Prp name="{10c26d46-73cc-431f-a6e7-26918b93ddd1}" type="S" value=""/>
 					<Prp name="{1b0769c7-419f-45cc-836d-9e55ce171ba0}" type="S" value=""/>
+					<Prp name="{2f510b56-d270-4d26-b54d-53cfc03e1477}" type="S" value=""/>
 					<Prp name="{4e07929d-30ff-4b03-b983-0fdf4d5d81f1}" type="S" value=""/>
+					<Prp name="{8718775b-5a7a-454a-9f6c-b654b72dba01}" type="S" value=""/>
 					<Prp name="{8c03f203-ae04-4b41-9a19-ff15a3112e13}" type="S" value=""/>
 					<Prp name="{9a842ed1-b604-4569-90cf-605235ee8d98}" type="S" value=""/>
 					<Prp name="{9b175e4a-e060-4127-951c-417cd0b38e8e}" type="S" value=""/>

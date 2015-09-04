@@ -1,6 +1,27 @@
 ﻿//USEUNIT GlobalVariables
 //USEUNIT GUIGlobalNames
 
+// More advanced function than standart "typeof" 
+function typeOf(value)
+{
+  switch(typeof(value))
+  { 
+    case "string":
+      var re = new RegExp(/\d{1,2}[\/.-]\d{1,2}[\/.-]\d{2,4}/);
+      return (value.match(re) != null) ? "date" : "string";
+      break;
+    case "object":
+      try
+        { value.join() }
+      catch(e)
+        { return "object" }
+      return "array";
+      break;
+    default:
+      return typeof(value);
+  } 
+}
+
 function compareVariables(output, input)
 {
   if(output != input)
@@ -74,4 +95,6 @@ function pressApplyButtonLibraAdvanced()
   // Press Apply button
   Sys.Process("intellect").Window("Afx:*", "Navigator").Window("Button", "", 1).ClickButton();       
 }
+
+
 

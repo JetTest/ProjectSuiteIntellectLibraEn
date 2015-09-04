@@ -22,6 +22,7 @@ function typeOf(value)
   } 
 }
 
+// Compare input with output variables compareVariables([var output][var input])
 function compareVariables(output, input)
 {
   if(output != input)
