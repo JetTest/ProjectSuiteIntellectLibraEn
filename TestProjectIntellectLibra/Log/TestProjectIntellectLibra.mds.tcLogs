@@ -84,6 +84,33 @@
 				<Prp name="relpath" type="S" value="04_09_2015_15_17_31_964\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6670965972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E730200D-5686-4C1F-B2F3-340144A0977B}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="04_09_2015_16_00_37_145\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6765715162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7767AA5F-0D2E-4171-83DC-E34A3AA01E14}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEverest\SetDevEverest]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_16_14_15_778\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42251.6775307176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C6FC9238-50BD-4D97-BB88-58BCE03570B4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevEverest\SendSetDevEverestMessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="04_09_2015_16_15_38_653\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

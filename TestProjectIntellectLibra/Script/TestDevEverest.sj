@@ -34,9 +34,9 @@ function SendSetDevEverestMessageToLibraMonitor()
 {
   var Port;
   var messagesPerSecond = 30;  
-  var mass = " 00890\r\n";  
+  var mass = 890;  
 
-  var message = mass;
+  var message = " 00890\r\n";
         
   Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
     

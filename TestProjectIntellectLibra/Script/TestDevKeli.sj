@@ -1,4 +1,5 @@
-﻿//USEUNIT GlobalVariables
+﻿
+//USEUNIT GlobalVariables
 //USEUNIT GlobalFunctions
 
 // Open pop-up Intellect menu, go to equipment tab, setup Dev.Keli  

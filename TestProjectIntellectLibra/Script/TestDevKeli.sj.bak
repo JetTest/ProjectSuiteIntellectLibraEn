@@ -68,15 +68,9 @@ function SendSetDevKeliMessageToLibraMonitor()
   // Check colour
   checkColour(colour);
 
-  Log.Message(typeOf(massMonitor));
-  Log.Message(typeOf(mass));
-  
   //massMonitor = aqConvert.StrToInt(massMonitor);
   massMonitor = aqConvert.StrToInt(massMonitor);
   mass = aqConvert.StrToInt(mass);
-  
-  Log.Message(typeOf(massMonitor));
-  Log.Message(typeOf(mass));
 
   // Compare input with output variables  
   compareVariables(massMonitor, mass)  

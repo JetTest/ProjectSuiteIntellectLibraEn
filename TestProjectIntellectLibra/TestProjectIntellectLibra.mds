@@ -1976,49 +1976,6 @@
 							<Prp name="description" type="S" value=""/>
 							<Prp name="enabled" type="B" value="-1"/>
 							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{E7BCD4B4-87BF-4322-95F3-54E21EF5EBF6}"/>
-							<Prp name="name" type="S" value="ProjectTestItem11"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{9B175E4A-E060-4127-951C-417CD0B38E8E}SetDevEverest"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-						<Node name="item idx=0001">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
-							<Prp name="key" type="S" value="{2BA35DA6-BBA6-4073-B102-F56C1CF376DC}"/>
-							<Prp name="name" type="S" value="ProjectTestItem8"/>
-							<Prp name="stoponerror" type="I" value="2"/>
-							<Prp name="stoponexception" type="I" value="2"/>
-							<Prp name="test moniker" type="S" value="{9B175E4A-E060-4127-951C-417CD0B38E8E}SendSetDevEverestMessageToLibraMonitor"/>
-							<Prp name="timeout" type="I" value="0"/>
-						</Node>
-					</Node>
-					<Node name="test parameters"/>
-					<Prp name="count" type="I" value="1"/>
-					<Prp name="description" type="S" value=""/>
-					<Prp name="enabled" type="B" value="-1"/>
-					<Prp name="group" type="B" value="-1"/>
-					<Prp name="key" type="S" value="{6E3E9151-71D4-4D90-BDE3-CDEB3FACC624}"/>
-					<Prp name="name" type="S" value="TestDevEverest"/>
-					<Prp name="stoponerror" type="I" value="2"/>
-					<Prp name="stoponexception" type="I" value="2"/>
-					<Prp name="test moniker" type="S" value=""/>
-					<Prp name="timeout" type="I" value="0"/>
-				</Node>
-				<Node name="item idx=0012">
-					<Node name="child list">
-						<Node name="item idx=0000">
-							<Node name="child list"/>
-							<Node name="test parameters"/>
-							<Prp name="count" type="I" value="1"/>
-							<Prp name="description" type="S" value=""/>
-							<Prp name="enabled" type="B" value="-1"/>
-							<Prp name="group" type="B" value="0"/>
 							<Prp name="key" type="S" value="{E78A31E8-7D27-4DD8-87C3-58CE7EE1101E}"/>
 							<Prp name="name" type="S" value="ProjectTestItem13"/>
 							<Prp name="stoponerror" type="I" value="2"/>
@@ -2053,7 +2010,7 @@
 					<Prp name="test moniker" type="S" value=""/>
 					<Prp name="timeout" type="I" value="0"/>
 				</Node>
-				<Node name="item idx=0013">
+				<Node name="item idx=0012">
 					<Node name="child list">
 						<Node name="item idx=0000">
 							<Node name="child list"/>
@@ -2091,6 +2048,49 @@
 					<Prp name="group" type="B" value="-1"/>
 					<Prp name="key" type="S" value="{A25AFDF7-4049-4D7E-A915-E356E4A41165}"/>
 					<Prp name="name" type="S" value="TestDevUV3"/>
+					<Prp name="stoponerror" type="I" value="2"/>
+					<Prp name="stoponexception" type="I" value="2"/>
+					<Prp name="test moniker" type="S" value=""/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item idx=0013">
+					<Node name="child list">
+						<Node name="item idx=0000">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{E7BCD4B4-87BF-4322-95F3-54E21EF5EBF6}"/>
+							<Prp name="name" type="S" value="ProjectTestItem11"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{9B175E4A-E060-4127-951C-417CD0B38E8E}SetDevEverest"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+						<Node name="item idx=0001">
+							<Node name="child list"/>
+							<Node name="test parameters"/>
+							<Prp name="count" type="I" value="1"/>
+							<Prp name="description" type="S" value=""/>
+							<Prp name="enabled" type="B" value="-1"/>
+							<Prp name="group" type="B" value="0"/>
+							<Prp name="key" type="S" value="{2BA35DA6-BBA6-4073-B102-F56C1CF376DC}"/>
+							<Prp name="name" type="S" value="ProjectTestItem8"/>
+							<Prp name="stoponerror" type="I" value="2"/>
+							<Prp name="stoponexception" type="I" value="2"/>
+							<Prp name="test moniker" type="S" value="{9B175E4A-E060-4127-951C-417CD0B38E8E}SendSetDevEverestMessageToLibraMonitor"/>
+							<Prp name="timeout" type="I" value="0"/>
+						</Node>
+					</Node>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="-1"/>
+					<Prp name="key" type="S" value="{6E3E9151-71D4-4D90-BDE3-CDEB3FACC624}"/>
+					<Prp name="name" type="S" value="TestDevEverest"/>
 					<Prp name="stoponerror" type="I" value="2"/>
 					<Prp name="stoponexception" type="I" value="2"/>
 					<Prp name="test moniker" type="S" value=""/>
