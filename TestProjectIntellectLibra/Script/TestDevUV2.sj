@@ -35,23 +35,27 @@ function SendSetDevUV2MessageToLibraMonitor()
 {
  var Port;
   var messagesPerSecond = 30;  
-  var message = "";
   
   // Initialize input variables
-  var currentWeight= "0";
+  var currentWeight= "1200";
   
-  var totalWeight = "";
+  var totalWeight = "1200";
   
-  var textBox1 = "";
-  var textBox2 = ""; 
-  var textBox3 = "";
-  var textBox4 = "";
-  var textBox5 = "";
-  var textBox6 = "";
-  var textBox7 = "";
-  var textBox8 = ""; 
-    
-    
+  var textBox1 = "10";
+  var textBox2 = "20"; 
+  var textBox3 = "300";
+  var textBox4 = "400";
+  var textBox5 = "50";
+  var textBox6 = "50";
+  var textBox7 = "50";
+  var textBox8 = "50"; 
+  
+     
+//  
+  var message = "ALL " + currentWeight + " " + textBox1 + " " + textBox2 + " " 
+  + textBox3 + " " + textBox4 + " " + textBox5 + " " + textBox6 + " " 
+  + textBox7 + " " + textBox8 + " 8 " + totalWeight + " 0 1 0 108\r\n"  
+  
   Port = dotNET.System_IO_Ports.SerialPort.zctor_7("COM11", 9600, "None", 8, 1);
     
   Port.Open();
@@ -83,27 +87,38 @@ function SendSetDevUV2MessageToLibraMonitor()
   var textBoxMonitor8 = Sys.Process("VitLibraView").WPFObject("HwndSource: _window").WPFObject("_window").WPFObject("MainView", "", 1).WPFObject("Grid", "", 1).WPFObject("ContentControl", "", 1).WPFObject("DriverView", "", 1).WPFObject("_root").WPFObject("WeightView", "", 1).WPFObject("Border", "", 1).WPFObject("Grid", "", 1).WPFObject("TextBox", "", 8).get_Text(); 
  
   // Convert to integer type 
-//  currentWeightMonitor = aqConvert.StrToInt(currentWeightMonitor);
-//  totalWeightMonitor = aqConvert.StrToInt(totalWeightMonitor);
-//  textBoxMonitor1 = aqConvert.StrToInt(textBoxMonitor1);
-//  textBoxMonitor2 = aqConvert.StrToInt(textBoxMonitor2);
-//  textBoxMonitor3 = aqConvert.StrToInt(textBoxMonitor3);
-//  textBoxMonitor4 = aqConvert.StrToInt(textBoxMonitor4);
-//  textBoxMonitor5 = aqConvert.StrToInt(textBoxMonitor5);
-//  textBoxMonitor6 = aqConvert.StrToInt(textBoxMonitor6);
-//  textBoxMonitor7 = aqConvert.StrToInt(textBoxMonitor7);
-//  textBoxMonitor8 = aqConvert.StrToInt(textBoxMonitor8);
+  currentWeightMonitor = aqConvert.StrToInt(currentWeightMonitor);
+  totalWeightMonitor = aqConvert.StrToInt(totalWeightMonitor);
+  textBoxMonitor1 = aqConvert.StrToInt(textBoxMonitor1);
+  textBoxMonitor2 = aqConvert.StrToInt(textBoxMonitor2);
+  textBoxMonitor3 = aqConvert.StrToInt(textBoxMonitor3);
+  textBoxMonitor4 = aqConvert.StrToInt(textBoxMonitor4);
+  textBoxMonitor5 = aqConvert.StrToInt(textBoxMonitor5);
+  textBoxMonitor6 = aqConvert.StrToInt(textBoxMonitor6);
+  textBoxMonitor7 = aqConvert.StrToInt(textBoxMonitor7);
+  textBoxMonitor8 = aqConvert.StrToInt(textBoxMonitor8);
   
+  currentWeight = aqConvert.StrToInt(currentWeight);
+  totalWeight = aqConvert.StrToInt(totalWeight);
+  textBox1 = aqConvert.StrToInt(textBox1);
+  textBox2 = aqConvert.StrToInt(textBox2);
+  textBox3 = aqConvert.StrToInt(textBox3);
+  textBox4 = aqConvert.StrToInt(textBox4);
+  textBox5 = aqConvert.StrToInt(textBox5);
+  textBox6 = aqConvert.StrToInt(textBox6);
+  textBox7 = aqConvert.StrToInt(textBox7);
+  textBox8 = aqConvert.StrToInt(textBox8);
+    
   // Compare input with output variables compareVariables([var output][var input])
   compareVariables(currentWeightMonitor ,currentWeight);
   compareVariables(totalWeightMonitor , totalWeight);
-  compareVariables(textBoxMonitor1, textBox1);
+  compareVariables(textBoxMonitor1 , textBox1);
   compareVariables(textBoxMonitor2 , textBox2);
-  compareVariables(textBoxMonitor3 , textBoxMonitor3);
-  compareVariables(textBoxMonitor4 , textBoxMonitor4);
-  compareVariables(textBoxMonitor5 , textBoxMonitor5);
-  compareVariables(textBoxMonitor6 , textBoxMonitor6);
-  compareVariables(textBoxMonitor7 , textBoxMonitor7);
-  compareVariables(textBoxMonitor8 , textBoxMonitor8);
+  compareVariables(textBoxMonitor3 , textBox3);
+  compareVariables(textBoxMonitor4 , textBox4);
+  compareVariables(textBoxMonitor5 , textBox5);
+  compareVariables(textBoxMonitor6 , textBox6);
+  compareVariables(textBoxMonitor7 , textBox7);
+  compareVariables(textBoxMonitor8 , textBox8);
   
 }

@@ -111,6 +111,627 @@
 				<Prp name="relpath" type="S" value="04_09_2015_16_15_38_653\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6432888426"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CF81F1DD-0804-4D52-8BDF-42C1511ECDBC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SetDevUV2]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_26_20_156\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6435489931"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BE8EBE14-C8D3-4881-BD8B-A31C2F3B56A3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SetDevUV2]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_26_42_633\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6438139468"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5099120A-7675-4DE1-9AF6-D623982B2486}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SetDevUV2]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_27_05_525\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6458984607"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C7AFB2CF-5F80-48B9-ABA8-E70DC3394B38}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_30_05_626\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6474667708"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7C736EC3-739A-46B5-8E58-D3F75E54DA3B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_32_21_129\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6480842361"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F4CEE52C-9E27-4510-BE5D-63B2CE756B37}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_33_14_477\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6482557176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6325CBB4-39E5-46AF-B184-3E8D98839DB7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_33_29_294\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6492313542"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7D798615-CE57-4281-9DB6-52DC109DF899}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_34_53_588\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6544497454"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0A743E89-CD73-4AA3-8711-002B7A0986F6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_42_24_458\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6586501389"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C1BC9742-4776-4365-BE5E-AF99AF38A1F6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_48_27_362\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.660270787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{715F32EC-9C16-481A-A4A5-4DEA1D12795D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_50_47_396\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6621746644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7F6E40E2-6F36-4581-A11B-D52694B5D05B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_53_31_891\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6630707292"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BCFFFB98-F3EA-442A-893A-84056D868836}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_54_49_311\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6636008333"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{47BB757F-A9BA-493A-ACDF-5437C4785F8F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_55_35_112\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CB75C9C5-23C2-4274-A578-8B39384F0AD5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_15_56_44_160\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6767528935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2773E53B-2D2E-4CDB-8BDA-EFC1B1202CC5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_14_31_449\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6773357176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{03757EF0-49C3-4951-BACD-D7142632275D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_15_21_805\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6783108333"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BFC03AA1-7CD3-410F-AC42-F328C7940D66}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_16_46_55\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6789478935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{954F42FF-1E4C-49FF-B8A1-5E88C3824D5D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_17_41_98\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.680611875"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D60AB0E0-4586-4A9C-BC84-34DFDDC32916}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_20_04_865\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.681590162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B43527EA-DDD6-4008-B9F8-BF70AC8A8E62}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_21_29_390\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6822957176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{67675A62-C4BE-499B-A20C-FB167650F97E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_22_30_349\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6824858796"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{970460FB-B6DF-4FB9-8CDA-5ECB4CAD9CAE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_22_46_780\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6827494213"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{269DD5D4-2AF8-4E95-B79C-1C2AFD6849F2}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_23_09_550\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6836962963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C6D83666-8616-4366-A223-E8BDA90B4908}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_24_31_360\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6840554398"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E27051E8-A3E9-4448-A090-E7C6166CF2AE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_25_02_390\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6842696759"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{46F84CA2-734E-4363-B181-6BFB536E2778}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_25_20_900\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6844056713"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{90A742B6-8E00-4316-B8BE-EB5FC6BC229F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_25_32_650\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6846190972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F5D1BA2C-18A5-4C50-9B9D-C956724C866E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_25_51_90\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6852768519"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{45E2CFE5-BDBC-4988-9F62-054AA8B35EA6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_26_47_920\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6855284722"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F4770A37-1BBF-462E-AAD5-E19C5F5B23C4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_27_09_660\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6857945602"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3D92CC2C-A376-4C9B-837F-FCF0C8C3C338}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_27_32_650\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6865405093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7D72AEE6-CA43-4474-B4C8-11BE4D4063B3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_28_37_100\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6868662037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9A9DCD3E-7121-439D-A4FA-455F5DC1BCCF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_29_05_240\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6871513889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5443877D-B8A2-467E-99CC-408883095B1D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_29_29_880\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6874738426"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C146ED00-7A1E-43F3-9447-95F92BE4226E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_29_57_740\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6876946759"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{80BB1FF4-A0CC-4132-9B8B-9682046F8559}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_30_16_820\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6878550926"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{99EF8CBC-A1C2-475E-8947-3AF10717508B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_30_30_680\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.687977662"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4357BB18-4BDA-4B4C-8621-19075B724DE0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_30_41_270\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6883394676"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A1797FF2-897E-408F-B7C9-595004316F16}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_31_12_530\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0050">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6886490741"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8F37B7C5-E2BF-4830-BE72-D9F9A5D60808}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_31_39_280\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0051">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6887969907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BC409DEF-8A46-4B2E-A171-129EE86835F7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_31_52_60\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0052">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6889429398"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ECBE1F10-648C-4B97-9EAF-4FB40B762416}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_32_04_670\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0053">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6895363426"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{55C0E44F-E322-4984-8AC8-BF2317EE5501}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_32_55_940\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.689715625"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A5520772-84C1-4FD6-8FD0-5ACCBB1A97A7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_33_11_430\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.690209375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4B324B65-0821-4960-BF41-1ABD2FECEB7A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_33_54_90\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6906061458"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C9023107-82F8-404F-B0A0-C6E3DF5ED512}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_34_28_371\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6913243171"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F1D687C9-7111-4668-AC5E-E0FB5A1F9334}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_35_30_421\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6919838079"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BD5D3BA4-101C-4729-90A1-23C8E7C252D5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_36_27_401\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0059">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6924960764"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{16101AF3-067A-412F-AF54-3BFC52A4EFF4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_37_11_661\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0060">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6926662153"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{070E3BE1-2FB6-4DEB-A218-64AEC8775634}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_37_26_361\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0061">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6934961921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6F5FD7A1-10B0-491C-95EA-36CDB117367D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_38_38_71\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0062">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6939836921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3623D1A2-87E7-4ADE-B3D6-A9880AFA33DC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_39_20_191\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0063">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6941586921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A7158AAD-229E-45F8-A737-0AFC2EB3497F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_39_35_311\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0064">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6947362384"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A8DE0589-7D1C-457A-A2C5-B449CEC2FD09}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_40_25_211\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0065">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6951740856"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8FBDAE62-BA80-4058-A91C-D4C1F4E73761}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_41_03_41\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0066">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6957892477"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B3F26D63-9E22-4A44-B1B4-6668944760E8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_41_56_191\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0067">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6962856597"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B5C4005F-9D61-4204-B42D-9BFDB900CC9A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_42_39_81\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0068">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6965895949"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EF94548C-0EEF-4B49-A516-5029BAE757D0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_43_05_341\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0069">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6967101968"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4DD86CD0-FEDF-42EB-82E0-36ED678DAE96}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_43_15_761\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0070">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6968676042"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B7B8671D-C0D1-4FE4-8DA6-7547847FAC7B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_43_29_361\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0071">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6975997801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{05D810A9-0F47-4AC5-8E34-7C988F757EA8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_44_32_621\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0072">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6996022222"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2CFB4FEB-1BA5-450D-9A3D-9889C64E3AA7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_47_25_632\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0073">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.6998530324"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{251731A4-2FFF-46B8-8140-857CEFD53945}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_47_47_302\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0074">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.7011258449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{301DCE47-2854-4D35-9FA3-A0B038CF3264}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV2\SendSetDevUV2MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_49_37_273\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0075">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.7046847454"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3F1A2B9F-D01F-4023-9C16-F20DEA87F9F5}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="09_09_2015_16_54_44_762\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0076">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.7085140741"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{00584FB5-5B5F-4D6B-A69B-DD187FF70E08}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestDevUV3\SendSetDevUV3MessageToLibraMonitor]"/>
+				<Prp name="relpath" type="S" value="09_09_2015_17_00_15_616\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0077">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.7092381366"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5E06F2B3-427A-4088-ACB6-F7119F7CC89E}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="09_09_2015_17_01_18_174\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0078">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42256.7227962037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{73E80B08-7D7A-4083-9DCE-C2C7F22A254B}"/>
+				<Prp name="nameofroot" type="S" value="TestProjectIntellectLibra"/>
+				<Prp name="relpath" type="S" value="09_09_2015_17_20_49_592\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
